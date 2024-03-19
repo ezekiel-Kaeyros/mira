@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-picker-dropdown
+  .ant-picker-cell-in-view.ant-picker-cell-today
+  .ant-picker-cell-inner::before {
+  border: 2px solid #fd5001;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-picker-dropdown
+  .ant-picker-today-btn {
+  color: #fd5001;
+}
+
+.search-icon {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .ant-picker-panels {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

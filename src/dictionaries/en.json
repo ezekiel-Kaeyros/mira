@@ -1,0 +1,1958 @@
+{
+  "navigation": {
+    "home": "Home",
+    "reportIncident": "Report incident",
+    "publication": "Publications",
+    "about": "About Us",
+    "datenschutz": "Data Protection",
+    "contact": "Contact"
+  },
+  "page": {
+    "home": {
+      "heroSection": {
+        "title": "MIRa-NRW",
+        "excerpt": "Reporting & Information Centre anti-Black anti-Asian and other forms of racism NRW",
+        "description": "Have you been a victim or witness of a racist attack or discrimination ? You can report your case to us anonymously",
+        "reportIncident": "Report incident"
+      },
+      "publications": {
+        "title": "Current Publications",
+        "card": {
+          "description": "Together, we have made significant strides towards equality and justice. Join us as we celebrate the milestones achieved, partnerships formed, and the positive changes we have initiated. With your continued support, we are building bridges and creating lasting change in our communities. Explore the report to learn more about our accomplishments and our vision for a future free from racial discrimination."
+        }
+      },
+      "partrners": "Cooperation Partners"
+    },
+    "news": {
+      "title": "News",
+      "description": "This is the about page",
+      "readMore": "Read More"
+    },
+    "melden": {
+      "stepper": {
+        "steps": {
+          "identity": "Identity",
+          "placeTime": "Location & Time",
+          "description": "Description",
+          "confirmation": "Confirmation"
+        },
+        "initialStep": {
+          "title": "Have you become a victim or witness of a racist attack or discrimination ?",
+          "subTitle": "You can report your case to us anonymously",
+          "secondSubTitle": "We document cases of",
+          "list": {
+            "firstItem": "Anti-Black Racism",
+            "secondItem": "Anti-Asian Racism",
+            "thirdItem": "Other Forms of Racism"
+          },
+          "description": "Your report will make racism visible in NRW!",
+          "report": "Report incident"
+        },
+        "datenschutz": {
+          "title": "Data Protection Notice",
+          "firstParagraph": "The use of the online reporting form is voluntary. All content-related information is collected and processed anonymously. During the processing of the reporting form, to the extent permitted by your browser, an access log is set, without which online data collection would not function. However, this is automatically deleted immediately upon completion of the session, i.e., after filling out and submitting the form.",
+          "secondParagraph": "If you close the browser window without completing the survey, the session cookie will be automatically deleted after twelve hours. Important note on completing the form: Please do not provide specific names or data of other individuals that would allow for their identification. If it would be possible to identify individual persons, this data will be deleted during pseudonymization and replaced with coded values.",
+          "thirdParagraph": "The information you provide will be used exclusively by the MIRa-NRW reporting office for the purpose of recording discrimination incidents in NRW. Raw data will not be published or shared with third parties.",
+          "firstAgreement": [
+            "I agree to the specified",
+            "data protection",
+            "regulations"
+          ],
+          "secondAgreement": "I do not agree to the specified data protection regulations and hereby terminate my report.",
+          "buttonNext": "Next",
+          "buttonPrev": "Back"
+        },
+        "firstStep": {
+          "disclaimer": "If you are filling out the reporting form on behalf of someone else, it means that you are completing the form from the perspective of the affected person and in accordance with their self-disclosure. If this is not the case and you want to report an incident from your perspective as a witness, please click the 'Another person' option above.",
+          "disclaimerAgreement": "I hereby confirm that I am entering the following information on behalf of the affected person. I am completing this reporting form on their behalf and have their consent. All information will be filled out in accordance with the wishes and statements of the affected person. I hereby confirm that I am entering the following information on behalf of the affected person. I certify that I am completing all information truthfully under the authorization of the affected person.",
+          "whoIsAffected": {
+            "title": "Who is affected ?*",
+            "firstOption": "Myself",
+            "secondOption": "Another person",
+            "thirdOption": "I am reporting on behalf of the affected person",
+            "fourthOption": "An organization/institution",
+            "fieldIsRequired": "This field is required."
+          },
+          "organizationTypeQuestion": "What type of organization/institution is affected (multiple answers possible) ?",
+          "numberOfEmployeesQuestion": "How many people work in the organization/institution (full-time, part-time, or volunteer) ?",
+          "whoIsAffectedOnBehalfQuestion": {
+            "firstOption": "What is the gender identity of the affected person ?",
+            "secondQuestion": "How old is the affected person ?"
+          },
+          "howOldAreYouQuestion": {
+            "firstQuestion": "How old are you ?",
+            "secondQuestion": "What is your gender identity ?"
+          },
+          "freeField": "Other, namely:",
+          "data": {
+            "genders": [
+              {
+                "iD": 1,
+                "value": "Female",
+                "id": "gend1",
+                "name": "gender",
+                "label": "Female",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "Male",
+                "id": "gender2",
+                "name": "gender",
+                "label": "Male",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "Trans*",
+                "id": "gender3",
+                "name": "gender",
+                "label": "Trans*",
+                "checked": false
+              },
+              {
+                "iD": 4,
+                "value": "Non-binary",
+                "id": "gender4",
+                "name": "gender",
+                "label": "Non-binary",
+                "checked": false
+              },
+              {
+                "iD": 5,
+                "value": "Inter*",
+                "id": "gender5",
+                "name": "gender",
+                "label": "Inter*",
+                "checked": false
+              },
+              {
+                "iD": 6,
+                "value": "Self-identification",
+                "id": "gender6",
+                "name": "gender",
+                "label": "Self-identification",
+                "checked": false
+              }
+            ],
+            "age": [
+              {
+                "iD": 1,
+                "value": "Under 18 years",
+                "id": "age1",
+                "name": "age",
+                "label": "Under 18 years",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "18-27 years",
+                "id": "age2",
+                "name": "age",
+                "label": "18-27 years",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "28-40 years",
+                "id": "age3",
+                "name": "age",
+                "label": "28-40 years",
+                "checked": false
+              },
+              {
+                "iD": 4,
+                "value": "41-65 years",
+                "id": "age4",
+                "name": "age",
+                "label": "41-65 years",
+                "checked": false
+              },
+              {
+                "iD": 5,
+                "value": "Over 65 years",
+                "id": "age5",
+                "name": "age",
+                "label": "Over 65 years",
+                "checked": false
+              }
+            ],
+            "organizationTypeData": [
+              {
+                "iD": 1,
+                "value": "Non-Governmental Organization (NGO)",
+                "id": "organizationType1",
+                "name": "organizationType",
+                "label": "Non-Governmental Organization (NGO)",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "Self-organization",
+                "id": "organizationType2",
+                "name": "organizationType",
+                "label": "Self-organization",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "Religious Institution",
+                "id": "organizationType3",
+                "name": "organizationType",
+                "label": "Religious Institution",
+                "checked": false
+              },
+              {
+                "iD": 4,
+                "value": "Social Institution",
+                "id": "organizationType4",
+                "name": "organizationType",
+                "label": "Social Institution",
+                "checked": false
+              },
+              {
+                "iD": 5,
+                "value": "Cultural Institution",
+                "id": "organizationType5",
+                "name": "organizationType",
+                "label": "Cultural Institution",
+                "checked": false
+              },
+              {
+                "iD": 6,
+                "value": "Association",
+                "id": "organizationType6",
+                "name": "organizationType",
+                "label": "Association",
+                "checked": false
+              },
+              {
+                "iD": 7,
+                "value": "Other, namely:",
+                "id": "organizationType7",
+                "name": "organizationType",
+                "label": "Other, namely:",
+                "checked": false
+              }
+            ],
+            "numberOfEmployees": [
+              {
+                "iD": 1,
+                "value": "Under 10",
+                "id": "numberOfEmployees1",
+                "name": "numberOfEmployees",
+                "label": "Under 10",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "10 - 49",
+                "id": "numberOfEmployees2",
+                "name": "numberOfEmployees",
+                "label": "10 - 49",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "50 - 250",
+                "id": "numberOfEmployees3",
+                "name": "numberOfEmployees",
+                "label": "50 - 250",
+                "checked": false
+              },
+              {
+                "iD": 4,
+                "value": "Over 250",
+                "id": "numberOfEmployees4",
+                "name": "numberOfEmployees",
+                "label": "Over 250",
+                "checked": false
+              }
+            ]
+          }
+        },
+        "secondStep": {
+          "whenDidIncidentTakePlace": "When did the incident take place ?",
+          "happenedOverALongPeriod": "It happened over a long period of time.",
+          "inWhichPlace": "In which place did the discrimination occur ?",
+          "inWhichPlaceHint": "(Please enter here only the city or district no address)",
+          "itHappenedOnline": "It happened online.",
+          "whichSocialSphere": "In which societal sphere did the discrimination occur ? (Multiple answers possible)*",
+          "required": "Select at least one option",
+          "data": {
+            "choices": [
+              {
+                "iD": 1,
+                "name": "areaLocation",
+                "value": "Government and Authorities",
+                "id": "1",
+                "label": "Government and Authorities",
+                "examples": "e.g., Social Services | Job Center | Immigration Office"
+              },
+              {
+                "iD": 2,
+                "name": "areaLocation",
+                "value": "Work",
+                "id": "2",
+                "label": "Work",
+                "examples": "e.g., Workplace | Training | Job Search"
+              },
+              {
+                "iD": 3,
+                "name": "areaLocation",
+                "value": "Education",
+                "id": "3",
+                "label": "Education",
+                "examples": "e.g., School | Daycare | University | Adult Education"
+              },
+              {
+                "iD": 4,
+                "name": "areaLocation",
+                "value": "Housing",
+                "id": "4",
+                "label": "Housing",
+                "examples": "e.g., Housing Search | Rental Agreement"
+              },
+              {
+                "iD": 5,
+                "name": "areaLocation",
+                "value": "Retail and Services",
+                "id": "5",
+                "label": "Retail and Services",
+                "examples": "e.g., Store | Gastronomy | Culture | Sports | Insurance | Banks"
+              },
+              {
+                "iD": 6,
+                "name": "areaLocation",
+                "value": "Digital Space",
+                "id": "6",
+                "label": "Digital Space",
+                "examples": "e.g., Social Media | Internet | Gaming"
+              },
+              {
+                "iD": 7,
+                "name": "areaLocation",
+                "value": "Analog Media",
+                "id": "7",
+                "label": "Analog Media",
+                "examples": "e.g., Newspaper | TV | Radio"
+              },
+              {
+                "iD": 8,
+                "name": "areaLocation",
+                "value": "Personal Environment/Private Life",
+                "id": "8",
+                "label": "Personal Environment/Private Life",
+                "examples": "e.g., Family | Circle of Friends | Neighborhood Relationship"
+              },
+              {
+                "iD": 9,
+                "name": "areaLocation",
+                "value": "Public Space",
+                "id": "9",
+                "label": "Public Space",
+                "examples": "e.g., Street | Park | Playground"
+              },
+              {
+                "iD": 10,
+                "name": "areaLocation",
+                "value": "Leisure",
+                "id": "10",
+                "label": "Leisure",
+                "examples": "e.g., Clubs | Social or Religious Institutions"
+              },
+              {
+                "iD": 11,
+                "name": "areaLocation",
+                "value": "Transportation",
+                "id": "11",
+                "label": "Transportation",
+                "examples": "e.g., On a Bus or Train | During a Flight | In a Taxi"
+              },
+              {
+                "iD": 12,
+                "name": "areaLocation",
+                "value": "Health",
+                "id": "12",
+                "label": "Health",
+                "examples": "e.g., Hospital | Doctor | Care | Therapy"
+              },
+              {
+                "iD": 13,
+                "name": "areaLocation",
+                "value": "Social Services",
+                "id": "13",
+                "label": "Social Services",
+                "examples": "e.g., Counseling | Care | Self-Help"
+              },
+              {
+                "iD": 14,
+                "name": "areaLocation",
+                "value": "Justice",
+                "id": "14",
+                "label": "Justice",
+                "examples": "e.g., Court | Lawyer | Prison"
+              },
+              {
+                "iD": 15,
+                "name": "areaLocation",
+                "value": "Police",
+                "id": "15",
+                "label": "Police",
+                "examples": "e.g., Traffic Police | Federal Police | Criminal Police"
+              },
+              {
+                "iD": 16,
+                "name": "areaLocation",
+                "value": "Emergency Services",
+                "id": "16",
+                "label": "Emergency Services",
+                "examples": "e.g., Fire Department | Military"
+              },
+              {
+                "iD": 17,
+                "name": "areaLocation",
+                "value": "Other, namely:",
+                "id": "17",
+                "label": "Other, namely:"
+              }
+            ]
+          },
+          "freeField": "Other, namely:"
+        },
+        "thirdStep": {
+          "fieldIsRequired": "This field is required.",
+          "iThinkItIsAbout": "I think it is about",
+          "organization": {
+            "asian": {
+              "description": {
+                "title": "Incident Description – What exactly happened ?*",
+                "placeholder": "Please describe the incident as precisely as possible. For data protection reasons, we ask you not to provide names or data of other persons here.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination take place ?",
+                  "item2": "Who was the target of the attack ?",
+                  "item3": "How was the organization/institution discriminated against ?",
+                  "item4": "Who was the perpetrator of the attack ?",
+                  "item5": "How did other people react ?",
+                  "item6": "What makes you think it is anti-Asian racism ?",
+                  "item7": "What were the effects of the incident (e.g., emotional, physical, social, or financial effects) ?"
+                }
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is it another form of discrimination ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Anti-feminism",
+                  "Anti-Muslim racism",
+                  "Anti-Black racism",
+                  "Anti-Semitism",
+                  "Anti-Slavic racism",
+                  "Anti-Roma discrimination",
+                  "Homophobia",
+                  "Sexism",
+                  "Other forms, namely:"
+                ]
+              },
+              "isItReported": {
+                "title": "Has the organization/institution taken any other measures ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "They reported the case to the police",
+                  "They consulted a counseling center",
+                  "They reported the case to another reporting office, namely:",
+                  "Other, namely:"
+                ]
+              }
+            },
+            "black": {
+              "description": {
+                "title": "Incident Description – What exactly happened ?*",
+                "placeholder": "Please describe the incident as precisely as possible. For data protection reasons, we ask you not to provide names or data of other persons here.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination take place ?",
+                  "item2": "Who was the target of the attack ?",
+                  "item3": "How was the organization/institution discriminated against ?",
+                  "item4": "Who was the perpetrator of the attack ?",
+                  "item5": "How did other people react ?",
+                  "item6": "What makes you think it is anti-Black racism ?",
+                  "item7": "What were the effects of the incident (e.g., emotional, physical, social, or financial effects) ?"
+                }
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is it another form of discrimination ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Anti-feminism",
+                  "Anti-Muslim racism",
+                  "Anti-Black racism",
+                  "Anti-Semitism",
+                  "Anti-Slavic racism",
+                  "Anti-Roma discrimination",
+                  "Homophobia",
+                  "Sexism",
+                  "Other forms, namely:"
+                ]
+              },
+              "isItReported": {
+                "title": "Has the organization/institution taken any other measures ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "They reported the case to the police",
+                  "They consulted a counseling center",
+                  "They reported the case to another reporting office, namely:",
+                  "Other, namely:"
+                ]
+              }
+            },
+            "other": {
+              "description": {
+                "title": "Incident Description – What exactly happened ?*",
+                "placeholder": "Please describe the incident as precisely as possible. For data protection reasons, we ask you not to provide names or data of other persons here.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination take place ?",
+                  "item2": "Who was the target of the attack ?",
+                  "item3": "How was the organization/institution discriminated against ?",
+                  "item4": "Who was the perpetrator of the attack ?",
+                  "item5": "How did other people react ?",
+                  "item6": "What makes you think it is anti-... racism ?",
+                  "item7": "What were the effects of the incident (e.g., emotional, physical, social, or financial effects) ?"
+                }
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is it another form of discrimination ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Anti-feminism",
+                  "Anti-Muslim racism",
+                  "Anti-Black racism",
+                  "Anti-Semitism",
+                  "Anti-Slavic racism",
+                  "Anti-Roma discrimination",
+                  "Homophobia",
+                  "Sexism",
+                  "Other forms, namely:"
+                ]
+              },
+              "isItReported": {
+                "title": "Has the organization/institution taken any other measures ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "They reported the case to the police",
+                  "They consulted a counseling center",
+                  "They reported the case to another reporting office, namely:",
+                  "Other, namely:"
+                ]
+              }
+            }
+          },
+          "normal": {
+            "asian": {
+              "description": {
+                "title": "Incident Description - What exactly happened ?*",
+                "placeholder": "Please describe the incident as precisely as possible. For data protection reasons, we ask you not to provide names or data of other individuals here.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination occur ?",
+                  "item2": "Who was the target of the attack ?",
+                  "item3": "How were you discriminated against ?",
+                  "item4": "Who was the perpetrator of the attack ?",
+                  "item5": "How did other individuals react ?",
+                  "item6": "What makes you think it was anti-Asian racism ?",
+                  "item7": "What were the effects of the incident (e.g., emotional, physical, social, or financial impacts) ?",
+                  "dynamicFirstPart": "What makes you think it is",
+                  "dynamicSeconPart": " ?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "In what way did discrimination based on (attributed) Asian heritage manifest ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "I was disadvantaged",
+                    "id": "id1",
+                    "name": "racismManifestation",
+                    "label": "I was disadvantaged",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "I was harassed, bullied, insulted, or harassed",
+                    "id": "id2",
+                    "name": "racismManifestation",
+                    "label": "I was harassed, bullied, insulted, or harassed",
+                    "examples": "e.g., insult related to my (attributed) Asian heritage | harassment in public",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "I experienced sexual harassment",
+                    "id": "id3",
+                    "name": "racismManifestation",
+                    "label": "I experienced sexual harassment",
+                    "examples": "e.g., exoticization | over or desexualization due to my (attributed) Asian heritage",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "I was subtly humiliated or degraded in an everyday situation",
+                    "id": "id4",
+                    "name": "racismManifestation",
+                    "label": "I was subtly humiliated or degraded in an everyday situation",
+                    "examples": "e.g., attribution of negative or 'positive' traits only with reference to my (attributed) Asian heritage | confrontation with 'Asian sounds or gestures' | blame related to Corona | not taking seriously or ridiculing due to my (attributed) Asian heritage | being avoided | questioning my belonging to Germany",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "I experienced digital violence or discrimination",
+                    "id": "id5",
+                    "name": "racismManifestation",
+                    "label": "I experienced digital violence or discrimination",
+                    "examples": "e.g., hate speech | cyber-stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "I experienced violence",
+                    "id": "id6",
+                    "name": "racismManifestation",
+                    "label": "I experienced violence",
+                    "examples": "e.g., physical assault or coercion | arson | break-in at my home | destruction or damage to property",
+                    "checked": false
+                  },
+                  {
+                    "iD": 7,
+                    "value": "Other, namely",
+                    "id": "id7",
+                    "name": "racismManifestation",
+                    "label": "Other, namely",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "I did not receive access",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I did not receive access",
+                    "examples": "e.g., no access to a club or event | no contract at a gym | entry into a club or group | denial of a loan agreement | renting an apartment",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "I did not receive equal treatment or equal service",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I did not receive equal treatment or equal service",
+                    "examples": "e.g., inadequate or denied medical treatment | unjustified inspection | lower grades in school | disadvantage at work | denial of social benefits by an office | higher rent compared to other tenants",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "I was excluded",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I was excluded",
+                    "examples": "e.g., expulsion or non-promotion in school | termination of employment or apartment | reassignment at work | eviction",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "The same rights were denied to me.",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The same rights were denied to me.",
+                    "examples": "e.g., residency status | recognition of a professional or educational qualification",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "I feel my personal rights have been violated",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I feel my personal rights have been violated",
+                    "examples": "e.g., mispronunciation or misspelling of my name | violation of my intimacy or privacy",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is there another form of discrimination involved ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminism",
+                  "Anti-Muslim Racism",
+                  "Anti-Black Racism",
+                  "Antisemitism",
+                  "Anti-Slavic Racism",
+                  "Anti-Gypsyism",
+                  "Queerphobia",
+                  "Sexism",
+                  "Other Forms, namely:"
+                ]
+              },
+              "isItReported": {
+                "title": "Have you taken any other measures already ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "She reported the case to the police",
+                  "She visited a counseling center",
+                  "She reported the case to another reporting office, namely:",
+                  "Other, namely:"
+                ]
+              }
+            },
+            "black": {
+              "description": {
+                "title": "Incident Description - What exactly happened ?*",
+                "placeholder": "Please describe the incident in as much detail as possible. For privacy reasons, we ask you not to provide names or data of other individuals.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination occur ?",
+                  "item2": "Who was the target of the attack ?",
+                  "item3": "How were you discriminated against ?",
+                  "item4": "Who was the perpetrator of the attack ?",
+                  "item5": "How did other individuals react ?",
+                  "item6": "What makes you think this was an instance of anti-Black racism ?",
+                  "item7": "What were the effects of the incident (e.g., emotional, physical, social, or financial consequences) ?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "In what ways did the anti-Black racism manifest in the incident ?*",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "I was disadvantaged",
+                    "id": "id1",
+                    "name": "racismManifestation",
+                    "label": "I was disadvantaged",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "I was harassed, bullied, insulted, or harassed",
+                    "id": "id2",
+                    "name": "racismManifestation",
+                    "label": "I was harassed, bullied, insulted, or harassed",
+                    "examples": "e.g. Insults related to my Blackness | Use of racial slurs | Street harassment",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "I experienced sexual harassment",
+                    "id": "id3",
+                    "name": "racismManifestation",
+                    "label": "I experienced sexual harassment",
+                    "examples": "e.g. Oversexualization due to my Blackness",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "I was subtly humiliated or degraded in everyday situations",
+                    "id": "id4",
+                    "name": "racismManifestation",
+                    "label": "I was subtly humiliated or degraded in everyday situations",
+                    "examples": "e.g. Attribution of negative or 'positive' traits solely based on my Blackness | Confrontation with 'African' sounds or gestures | Exoticization | Being avoided | Denial of abilities | Questioning my belonging to Germany",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "I experienced digital violence or discrimination",
+                    "id": "id5",
+                    "name": "racismManifestation",
+                    "label": "I experienced digital violence or discrimination",
+                    "examples": "e.g. Hatespeech | Cyber-Stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "I experienced violence",
+                    "id": "id6",
+                    "name": "racismManifestation",
+                    "label": "I experienced violence",
+                    "examples": "e.g. Physical assault or coercion | Arson | Intrusion into my home | Destruction or damage to property",
+                    "checked": false
+                  },
+                  {
+                    "iD": 7,
+                    "value": "Other, namely",
+                    "id": "id7",
+                    "name": "racismManifestation",
+                    "label": "Other, namely",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "I was denied access",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I was denied access",
+                    "examples": "e.g. Denied access to a club or event | No contract at a gym | Entry into a group or club | Denied a credit agreement | Rental of an apartment",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "I did not receive equal treatment or the same service",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I did not receive equal treatment or the same service",
+                    "examples": "e.g. Insufficient or denied medical treatment | Unjustified controls | Lower grades in school | Disadvantaged at work | Denial of social benefits by an agency | Higher rent compared to other tenants",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "I was excluded.",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I was excluded.",
+                    "examples": "e.g. Expulsion or non-promotion in school | Termination of employment or housing | Job relocation | Eviction",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "The same rights were denied to me.",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The same rights were denied to me.",
+                    "examples": "e.g. Residence status | Recognition of a professional or educational qualification",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "I feel my personality rights have been violated",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I feel my personality rights have been violated",
+                    "examples": "e.g. Incorrect pronunciation or spelling of my name | Violation of my intimacy or privacy",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is there another form of discrimination involved ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminism",
+                  "Anti-Muslim racism",
+                  "Anti-Black racism",
+                  "Anti-Semitism",
+                  "Anti-Slavic racism",
+                  "Antiziganism",
+                  "Homophobia",
+                  "Sexism",
+                  "Other forms, namely:"
+                ]
+              },
+              "isItReported": {
+                "title": "Have you already taken other measures ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "She has reported the case to the police",
+                  "She has visited a counseling center",
+                  "She has reported the case to another reporting agency, namely:",
+                  "Other, namely:"
+                ]
+              }
+            },
+            "other": {
+              "description": {
+                "title": "Description of the Incident - What exactly happened ?*",
+                "placeholder": "Please describe the incident in as much detail as possible. For privacy reasons, we ask you not to provide names or data of other individuals.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination occur ?",
+                  "item2": "Who was the target of the attack ?",
+                  "item3": "How were you discriminated against ?",
+                  "item4": "Who was the attacker ?",
+                  "item5": "How did other people react ?",
+                  "item6": "What makes you think it was racism against your ethnicity or background ?",
+                  "item7": "What were the effects of the incident (e.g., emotional, physical, social, or financial consequences) ?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "In what way did racism manifest in the incident ?*",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "I was disadvantaged",
+                    "id": "id1",
+                    "name": "racismManifestation",
+                    "label": "I was disadvantaged",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "I was harassed, bullied, insulted, or intimidated",
+                    "id": "id2",
+                    "name": "racismManifestation",
+                    "label": "I was harassed, bullied, insulted, or intimidated",
+                    "examples": "e.g., insults related to my (attributed) ethnicity | hostility in public",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "I experienced sexual harassment",
+                    "id": "id3",
+                    "name": "racismManifestation",
+                    "label": "I experienced sexual harassment",
+                    "examples": "e.g., oversexualization due to my background",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "I was subtly humiliated or degraded in an everyday situation",
+                    "id": "id4",
+                    "name": "racismManifestation",
+                    "label": "I was subtly humiliated or degraded in an everyday situation",
+                    "examples": "e.g., ascribing negative or 'positive' traits solely based on my background | exoticization | being avoided | denial of abilities | questioning my belonging to Germany",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "I experienced digital violence or discrimination",
+                    "id": "id5",
+                    "name": "racismManifestation",
+                    "label": "I experienced digital violence or discrimination",
+                    "examples": "e.g., hate speech | cyber-stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "I experienced physical violence",
+                    "id": "id6",
+                    "name": "racismManifestation",
+                    "label": "I experienced physical violence",
+                    "examples": "e.g., physical assault or coercion | arson | intrusion into my home | destruction or damage to property",
+                    "checked": false
+                  },
+                  {
+                    "iD": 7,
+                    "value": "Other, namely",
+                    "id": "id7",
+                    "name": "racismManifestation",
+                    "label": "Other, namely",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "I was denied access",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I was denied access",
+                    "examples": "e.g., denied access to a club or event | no contract at a gym | entry into a club or group | denial of a loan contract | rental of an apartment",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "I did not receive equal service or treatment",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I did not receive equal service or treatment",
+                    "examples": "e.g., insufficient or denied medical treatment | baseless control | lower grades in school | discrimination at the workplace | denial of social benefits by an authority | higher rent compared to other tenants",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "I was excluded.*",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I was excluded.*",
+                    "examples": "e.g., expulsion or non-promotion in school | termination of employment or apartment | relocation at work | eviction",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "My equal rights were denied",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "My equal rights were denied",
+                    "examples": "e.g., residency status | recognition of a professional or educational qualification",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "I feel my personal rights were violated",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "I feel my personal rights were violated",
+                    "examples": "e.g., incorrect pronunciation or spelling of my name | violation of my privacy or intimacy",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is there another form of discrimination involved ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Anti-feminism",
+                  "Anti-Muslim racism",
+                  "Anti-Black racism",
+                  "Anti-Semitism",
+                  "Anti-Slavic racism",
+                  "Anti-Roma racism",
+                  "Queerphobia",
+                  "Sexism",
+                  "Other forms, namely:"
+                ]
+              },
+              "isItReported": {
+                "title": "Have you taken any other measures ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "She reported the case to the police",
+                  "She consulted a counseling center",
+                  "She reported the case to another reporting office, namely:",
+                  "Other, namely:"
+                ]
+              }
+            }
+          },
+          "onBehalf": {
+            "asian": {
+              "description": {
+                "title": "Incident Description – What exactly happened ?*",
+                "placeholder": "Please describe the incident in as much detail as possible. For data protection reasons, we ask you not to provide names or data of other individuals here.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination take place ?",
+                  "item2": "Who was the target of the attack ?",
+                  "item3": "How was the person discriminated against ?",
+                  "item4": "Who was the perpetrator of the attack ?",
+                  "item5": "How did other people react ?",
+                  "item6": "What makes you think it was anti-Asian racism ?",
+                  "item7": "What were the consequences of the incident (e.g., emotional, physical, social, or financial effects) ?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "In what ways did the discrimination based on (attributed) Asian heritage manifest itself ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "The person was disadvantaged",
+                    "id": "idx1",
+                    "name": "racismManifestation",
+                    "label": "The person was disadvantaged",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "The person was harassed, bullied, insulted, or intimidated",
+                    "id": "idx2",
+                    "name": "racismManifestation",
+                    "label": "The person was harassed, bullied, insulted, or intimidated",
+                    "examples": "e.g., Insults related to my (attributed) Asian heritage | Confrontation on the street",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "The person experienced sexual harassment",
+                    "id": "idx3",
+                    "name": "racismManifestation",
+                    "label": "The person experienced sexual harassment",
+                    "examples": "e.g., Exoticization | Over- or desexualization due to my (attributed) Asian heritage",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "The person was subtly humiliated or degraded in an everyday situation",
+                    "id": "idx4",
+                    "name": "racismManifestation",
+                    "label": "The person was subtly humiliated or degraded in an everyday situation",
+                    "examples": "e.g., Attribution of negative or 'positive' traits solely based on my (attributed) Asian heritage | Confrontation with 'Asian sounds or gestures' | Blame regarding COVID-19 | Not being taken seriously or ridiculed due to my (attributed) Asian heritage | Being avoided | Questioning my belonging to Germany",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "The person experienced digital violence or discrimination",
+                    "id": "idx5",
+                    "name": "racismManifestation",
+                    "label": "The person experienced digital violence or discrimination",
+                    "examples": "e.g., Hate speech | Cyber-stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "The person experienced violence",
+                    "id": "idx6",
+                    "name": "racismManifestation",
+                    "label": "The person experienced violence",
+                    "examples": "e.g., Physical assault or coercion | Arson | Intrusion into my home | Destruction or damage to property",
+                    "checked": false
+                  },
+                  {
+                    "iD": 7,
+                    "value": "Other, namely",
+                    "id": "idx7",
+                    "name": "racismManifestation",
+                    "label": "Other, namely",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "The person did not gain access",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person did not gain access",
+                    "examples": "e.g., No access to a club or event | No contract at a gym | Entry into a club or group | Refusal of a credit agreement | Rental of an apartment",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "The person did not receive equal service or treatment",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person did not receive equal service or treatment",
+                    "examples": "e.g., Inadequate or denied medical treatment | Baseless checks | Lower grades in school | Disadvantage at the workplace | Refusal of social benefits by an agency | Higher rent compared to other tenants",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "The person was excluded.*",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person was excluded.*",
+                    "examples": "e.g., School suspension or non-promotion | Job or apartment termination | Workplace reassignment | Eviction",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "The person was denied the same rights",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person was denied the same rights",
+                    "examples": "e.g., Residence status | Recognition of a professional or educational qualification",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "The person feels violated in their personal rights",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person feels violated in their personal rights",
+                    "examples": "e.g., Incorrect pronunciation or spelling of my name | Violation of my intimacy or privacy",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is there another form of discrimination involved ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Anti-feminism",
+                  "Anti-Muslim racism",
+                  "Anti-Black racism",
+                  "Anti-Semitism",
+                  "Anti-Slavic racism",
+                  "Anti-Roma discrimination",
+                  "Queerphobia",
+                  "Sexism",
+                  "Other forms, namely:"
+                ]
+              },
+              "isItReported": {
+                "title": "Has the person already taken other measures ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "She reported the case to the police",
+                  "She visited a counseling center",
+                  "She reported the case to another reporting office, namely:",
+                  "Other, namely:"
+                ]
+              }
+            },
+
+            "black": {
+              "description": {
+                "title": "Incident Description – What exactly happened ?*",
+                "placeholder": "Please describe the incident as precisely as possible. For data protection reasons, we ask you not to provide names or data of other individuals here.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination take place ?",
+                  "item2": "Who was the attack directed against ?",
+                  "item3": "How was the person discriminated against ?",
+                  "item4": "Who was the attacker ?",
+                  "item5": "How did other people react ?",
+                  "item6": "What makes you think it was Anti-Black Racism ?",
+                  "item7": "What were the effects of the incident (e.g., emotional, physical, social, or financial effects) ?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "In what way did Anti-Black Racism manifest in the incident ?*",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "The person was disadvantaged",
+                    "id": "idy1",
+                    "name": "racismManifestation",
+                    "label": "The person was disadvantaged",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "The person was harassed, bullied, insulted, or harassed",
+                    "id": "idy2",
+                    "name": "racismManifestation",
+                    "label": "The person was harassed, bullied, insulted, or harassed",
+                    "examples": "e.g., Insults related to my Blackness | Use of the N-word | Harassment on the street",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "The person experienced sexual harassment",
+                    "id": "idy3",
+                    "name": "racismManifestation",
+                    "label": "The person experienced sexual harassment",
+                    "examples": "e.g., Oversexualization due to my Blackness",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "The person was subtly humiliated or degraded in an everyday situation",
+                    "id": "idy4",
+                    "name": "racismManifestation",
+                    "label": "The person was subtly humiliated or degraded in an everyday situation",
+                    "examples": "e.g., Attribution of negative or 'positive' qualities solely based on my Blackness | Confrontation with 'African' sounds or gestures | Exoticization | Being avoided | Denial of abilities | Questioning belonging to Germany",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "The person experienced digital violence or discrimination",
+                    "id": "idy5",
+                    "name": "racismManifestation",
+                    "label": "The person experienced digital violence or discrimination",
+                    "examples": "e.g., Hate speech | Cyber-stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "The person experienced violence",
+                    "id": "idy6",
+                    "name": "racismManifestation",
+                    "label": "The person experienced violence",
+                    "examples": "e.g., Physical assault or coercion | Arson | Invasion of my home | Destruction or damage to property",
+                    "checked": false
+                  },
+                  {
+                    "iD": 7,
+                    "value": "Other, namely",
+                    "id": "idy7",
+                    "name": "racismManifestation",
+                    "label": "Other, namely",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "The person was denied access",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person was denied access",
+                    "examples": "e.g., No access to a club or event | No contract at a fitness studio | Entry into a club or group | Refusal of a loan contract | Rental of an apartment",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "The person did not receive equal treatment or equal treatment",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person did not receive equal treatment or equal treatment",
+                    "examples": "e.g., Inadequate or refused medical treatment | Baseless control | Lower grades in school | Disadvantage in the workplace | Refusal of social benefits by an office | Higher rent compared to other tenants",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "The person was excluded.",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person was excluded.",
+                    "examples": "e.g., Suspension or non-promotion in school | Termination of employment or housing | Transfer at work | Eviction",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "The person was denied the same rights",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person was denied the same rights",
+                    "examples": "e.g., Residence status | Recognition of a professional or educational qualification",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "The person feels their personal rights have been violated",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person feels their personal rights have been violated",
+                    "examples": "e.g., Incorrect pronunciation or spelling of my name | Violation of my intimacy or privacy",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is there another form of discrimination ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminism",
+                  "Anti-Muslim Racism",
+                  "Anti-Black Racism",
+                  "Antisemitism",
+                  "Anti-Slavic Racism",
+                  "Antiziganism",
+                  "Queerphobia",
+                  "Sexism",
+                  "Other forms, namely"
+                ]
+              },
+              "isItReported": {
+                "title": "Has the person already taken other measures ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "She reported the case to the police",
+                  "She visited a counseling center",
+                  "She reported the case to another reporting office, namely:",
+                  "Other, namely:"
+                ]
+              }
+            },
+            "other": {
+              "description": {
+                "title": "Incident Description – What exactly happened ?*",
+                "placeholder": "Please describe the incident in as much detail as possible. For data protection reasons, we ask that you do not provide the names or data of other individuals involved.",
+                "hints": {
+                  "title": "Relevant information may include:",
+                  "item1": "Where did the discrimination take place ?",
+                  "item2": "Who was the target of the attack ?",
+                  "item3": "How was the person discriminated against ?",
+                  "item4": "Who was the perpetrator of the attack ?",
+                  "item5": "How did other people react ?",
+                  "item6": "What makes you think it was racism based on...",
+                  "item7": "What were the effects of the incident (e.g., emotional, physical, social, or financial) ?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "How did racism manifest itself in the incident ? *",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "The person was disadvantaged",
+                    "id": "idz1",
+                    "name": "racismManifestation",
+                    "label": "The person was disadvantaged",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "The person was harassed, bullied, insulted, or harassed",
+                    "id": "idz2",
+                    "name": "racismManifestation",
+                    "label": "The person was harassed, bullied, insulted, or harassed",
+                    "examples": "e.g., insult with reference to my (ascribed) origin | hostility on the street",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "The person experienced sexual harassment",
+                    "id": "idz3",
+                    "name": "racismManifestation",
+                    "label": "The person experienced sexual harassment",
+                    "examples": "e.g., sexualization due to my origin",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "The person was subtly humiliated or demeaned in an everyday situation",
+                    "id": "idz4",
+                    "name": "racismManifestation",
+                    "label": "The person was subtly humiliated or demeaned in an everyday situation",
+                    "examples": "e.g., attribution of negative or 'positive' traits solely based on my origin | exoticization | avoidance | denial of abilities | questioning of belonging to Germany",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "The person experienced digital violence or discrimination",
+                    "id": "idz5",
+                    "name": "racismManifestation",
+                    "label": "The person experienced digital violence or discrimination",
+                    "examples": "e.g., hate speech | cyber-stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "The person experienced violence*",
+                    "id": "idz6",
+                    "name": "racismManifestation",
+                    "label": "The person experienced violence*",
+                    "examples": "e.g., physical assault or coercion | arson | break-in at my home | destruction or damage to property",
+                    "checked": false
+                  },
+                  {
+                    "iD": 7,
+                    "value": "Other, namely",
+                    "id": "idz7",
+                    "name": "racismManifestation",
+                    "label": "Other, namely",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "The person was denied access",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person was denied access",
+                    "examples": "e.g., no access to a club or event | no contract at a gym | entry into a club or group | refusal of a loan agreement | rental of an apartment",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "The person did not receive equal treatment or equal treatment",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person did not receive equal treatment or equal treatment",
+                    "examples": "e.g., inadequate or denied medical treatment | baseless control | lower grades in school | disadvantaged at work | denial of social benefits by an office | higher rent compared to other tenants",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "The person was excluded.*",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person was excluded.*",
+                    "examples": "e.g., reprimand or non-promotion in school | termination of employment or apartment | transfer at work | eviction",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "The person was denied the same rights.",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person was denied the same rights.",
+                    "examples": "e.g., residence status | recognition of a professional or educational qualification",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "The person feels their personal rights have been violated",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "The person feels their personal rights have been violated",
+                    "examples": "e.g., mispronunciation or misspelling of my name | violation of my intimacy or privacy",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Is there another form of discrimination involved ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Anti-feminism",
+                  "Anti-Muslim racism",
+                  "Anti-Black racism",
+                  "Anti-Semitism",
+                  "Anti-Slavic racism",
+                  "Antiziganism",
+                  "Queerphobia",
+                  "Sexism",
+                  "Other forms, namely:"
+                ]
+              },
+              "isItReported": {
+                "title": "Has the person already taken other measures ?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "No",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "No",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Yes",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Yes",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "They reported the case to the police",
+                  "They visited a counseling center",
+                  "They reported the case to another reporting office, namely:",
+                  "Other, namely:"
+                ]
+              }
+            }
+          },
+          "agreement": "I hereby confirm that I have entered the information on behalf of the affected person. I have filled out this reporting form on their behalf and have the consent of the affected person. All information has been filled out according to the wishes and statements of the affected person.",
+          "agreementOtherPerson": "I hereby confirm that I have filled in the information from my own observation to the best of my knowledge and belief.",
+          "data": {
+            "racismType": [
+              {
+                "iD": 1,
+                "value": "Anti-Asian Racism",
+                "id": "ida1",
+                "name": "typeOfRacism",
+                "label": "Anti-Asian Racism",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "Anti-Black Racism",
+                "id": "ida2",
+                "name": "typeOfRacism",
+                "label": "Anti-Black Racism",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "Not Sure",
+                "id": "ida3",
+                "name": "typeOfRacism",
+                "label": "Not Sure",
+                "checked": false
+              },
+              {
+                "iD": 4,
+                "value": "Eine andere Art von Rassismus und zwar",
+                "id": "ida4",
+                "name": "typeOfRacism",
+                "label": "Another Type of Racism, namely",
+                "checked": false
+              }
+            ]
+          }
+        },
+        "fourthStep": {
+          "title": "Summary and Verification",
+          "link": "Here",
+          "firstParagraph": "You can review and correct your report here.",
+          "acceptance": "By clicking Submit, I confirm the accuracy of my information.",
+          "submit": "Submit",
+          "steps": {
+            "identity": "Identity",
+            "placeTime": "Location & Time",
+            "description": "Description",
+            "edit": "Edit"
+          },
+          "captcha": "I'm not a robot"
+        },
+        "fifthStep": {
+          "title": "Thank You for Sharing Your Racist Experience!",
+          "leftSection": {
+            "title": "Get Support",
+            "paragraph": "Would you like to seek counseling for the reported incident ?",
+            "firstLinkTitle": "Victim Counseling Rhineland (OBR) and BackUp",
+            "firstLinkDescription": "have been supporting victims of right-wing, racist, antisemitic, and other forms of inhuman (abbreviated: right-wing) violence in NRW since 2011/12.",
+            "secondLinkTitle": "Anti-Discrimination Service Centers",
+            "secondLinkDescription": "advise and support people who have been discriminated against due to their origin, skin color, religion, or language."
+          },
+          "rightSection": {
+            "title": "Download",
+            "paragraph": "You can download a summary of your report here.",
+            "button": "Download"
+          },
+          "homeButton": "Back to Homepage"
+        },
+        "thirdStepOnBehalf": {}
+      },
+      "formFields": {},
+      "button": {
+        "next": "Next",
+        "prev": "Previous",
+        "submit": "Submit"
+      },
+      "about": {
+        "title": "About Us",
+        "description": "This is the About page."
+      }
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Racism",
+        "answer": "Racism originates from the historically evolved mindset that 'They' permanently differ from 'Us.' This sense of differentiation serves as the motive for 'We' to employ our power advantage to treat 'Others' in a manner that we would consider cruel or unjust if members of our own group were affected. Racism is therefore an expression of societal power relations that establish a system of differentiation, exclusion, restriction, or preference. This results in the thwarting, impairing, or denial of respecting, participating in, or exercising human rights in the political, social, economic, legal, cultural, or any other area of public or private life."
+      },
+      {
+        "id": 2,
+        "question": "Anti-Black Racism",
+        "answer": "Anti-Black racism is specifically directed against Black people. Its origins lie in the enslavement and exploitation of the African continent and its inhabitants. To justify the brutal colonization, Europeans declared Black people to be inferior, often pseudoscientifically justified. This was particularly based on physical characteristics, such as body shape or Afro hair. Anti-Black racism, due to the visibility of Blackness, especially in dark-skinned individuals, leads to regular psychological and physical experiences of violence in private and public life."
+      },
+
+      {
+        "id": 3,
+        "question": "Anti-Asiatic Racism",
+        "answer": "It is particularly specific to people to whom an Asian origin is attributed. It mostly concerns connections to South, Southeast, and East Asian countries. It manifests in narratives and prejudices and is evident in private and public life. Racism against individuals perceived as Asian is not new and is based on attitudes and narratives dating back to colonial times. It can go in various directions. On the one hand, people perceived as Asian in Germany are stigmatized as 'different' or 'dangerous.' On the other hand, there is the stereotype of 'hardworking model migrants.' Therefore, they are often denied experiences of racism."
+      }
+    ],
+    "cookiesConsent": {
+      "title": "Your privacy",
+      "content": "For the operation of our portal, we exclusively use cookies that are necessary for operation. Further information can be found in the",
+      "datenschutz": "privacy policy.",
+      "accept": "Yes, understood"
+    },
+    "about": {
+      "heroSection": {
+        "description": "MIRa-NRW has taken the task of making anti-Asian racism, anti-black racism and other forms of racism more visible in NRW. MIRa-NRW will be operated by a merger of three organizations"
+      },
+      "firstSection": {
+        "description": "The VMDO (Association of Sociocultural Migrant Associations in Dortmund) understands itself as an association of associations and organizations that are autonomous but at the same time share common goals and principles. The VMDO aims to promote exchange and encounter of people with and without migration history and to enable personal acquaintance across cultures and promote the equal participation of all Dortmunders. At the same time, the VMDO understands itself as the voice of migrants and people with a refugee or migration background in Dortmund."
+      },
+      "secondSection": {
+        "description": "The Anti-Racism Information Centre (ARIC-NRW) has been a recognised centre for anti-discrimination and racism-critical work for over 30 years. Since 1997, we have been providing advice to victims of discrimination, have many years of experience in observing and documenting racism and discrimination and are politically committed to better protection against discrimination."
+      },
+      "thirdSection": {
+        "description": "The Landesverband Netwerke von Migrant*innenorganisationen in NRW e. V. (LV NeMO) consists of eight local associations of migrants*inner organisations (MO) in eight cities in NRV and is the representative organization of approximately 150 migrant*innerorganisations in NDR. Founded in 2018, the LV NeMO understands itself as the new political and social voice of a (post)migrant immigration society."
+      },
+      "fourthSection": {
+        "title": "MIRa-NRW wants",
+        "firstSubsection": "To document and analyse anti-black, anti-Asian and other forms of racist attacks such as incidents in NRW",
+        "secondSubsection": "The forms, applications and consequences of discrimination and racism",
+        "thirdSubsection": "to illuminate the dark field of anti-black, anti-Asian, other forms and multidimensional discrimination and racism and to reflect an up-to-date picture of discrimination & racism in NRW",
+        "fourthSubsection": "Show affected people the way to counselling services"
+      },
+      "cooperation": "We work in collaboration with:"
+    },
+    "contact": {
+      "contactForm": {
+        "firstName": "FirstName",
+        "lastName": "LastName",
+        "email": "E-mail",
+        "inquiry": "Inquiry",
+        "button": "Send"
+      },
+      "address": {
+        "title": "Office",
+        "description": "Main location in the House of Diversity in the Unionviertel"
+      }
+    },
+    "footer": {
+      "datenschutz": "Data Privacy"
+    }
+  }
+}

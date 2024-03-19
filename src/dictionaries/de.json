@@ -1,0 +1,1971 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "reportIncident": "Vorfall melden",
+    "about": "Über uns",
+    "datenschutz": "Datenschutz",
+    "contact": "Kontakt"
+  },
+  "page": {
+    "home": {
+      "heroSection": {
+        "title": "MIRa-NRW",
+        "excerpt": "Melde- & Informationstelle  anti-Schwarzer antiasiatischer und weitere Formen von Rassismus NRW",
+        "description": "Bist Du Betroffene*r oder Zeug*in eines rassistischen Übergriffs oder einer Diskriminierung geworden? ​Bei uns kannst Du uns Deinen Fall anonym melden",
+        "reportIncident": "Vorfall melden"
+      },
+      "publications": {
+        "title": "Aktuelle Veröffentlichungen",
+        "card": {
+          "title": "Mira Jahresbericht",
+          "download": "Download",
+          "description": "Dokumentation Photovoice 2023"
+        }
+      },
+      "partrners": "Kooperationspartner*innen"
+    },
+
+    "news": {
+      "title": "Aktuelles",
+      "description": "This is the about page",
+      "readMore": "Mehr lesen"
+    },
+    "melden": {
+      "stepper": {
+        "steps": {
+          "identity": "Identität",
+          "placeTime": "Ort & Zeit",
+          "description": "Beschreibung",
+          "confirmation": "Bestätigung"
+        },
+        "initialStep": {
+          "title": "Bist Du Betroffene*r oder Zeug*in eines rassistischen Übergriffs oder einer Diskriminierung geworden?",
+          "subTitle": "Bei uns kannst Du uns Deinen Fall anonym melden",
+          "secondSubTitle": "Wir dokumentieren Fälle von",
+          "list": {
+            "firstItem": "Anti-Schwarzem Rassismus",
+            "secondItem": "Antiasiatischem Rassismus",
+            "thirdItem": "Weiteren Formen von Rassismus"
+          },
+          "description": "Durch Deine Meldung wird Rassismus in NRW sichtbar!",
+          "report": "Vorfall melden"
+        },
+        "datenschutz": {
+          "title": "Datenschutzhinweis",
+          "firstParagraph": "Die Nutzung des Online-Meldeformulars ist freiwillig. Alle inhaltlichen Angaben werden anonym erhoben und verarbeitet. Während der Bearbeitung des Meldeformulars wird, soweit ihr Browser dies zulässt, ein Zugriffs-Log gesetzt, ohne die eine Online-Erhebung nicht funktionieren würde. Dies wird aber sofort mit Beendigung der Session, also nach dem Ausfüllen und Absenden des Formulars, automatisch gelöscht.",
+          "secondParagraph": "Sollten Sie das Browserfenster schließen, ohne die Umfrage abgeschlossen zu haben, wird das Session-Cookie nach einer Laufzeit von zwölf Stunden automatisch gelöscht. Wichtiger Hinweis zum Ausfüllen des Formulars: Bitte nennen Sie keine konkreten Personen und/ oder personenbezogene Merkmale, anhand derer Personen identifizierbar sind. Sofern ein Rückschluss auf einzelne Personen möglich wäre, werden diese Daten im Zuge der Pseudonymisierung gelöscht und durch kodierte Werte ersetzt.",
+          "thirdParagraph": " Die von Ihnen getätigten Angaben werden seitens der Meldestelle MIRa-NRW ausschließlich für die Auswertung zum Zwecke der Erfassung von Diskriminierungsvorfällen in NRW verwertet. Die Rohdaten werden weder veröffentlicht noch an Dritte weitergegeben.",
+          "firstAgreement": [
+            "Ich stimme den genannten",
+            "Datenschutzbestimmungen",
+            "zu"
+          ],
+          "secondAgreement": "Ich stimme den genannten Datenschutzbestimmungen nicht zu und beende meine Meldung an dieser Stelle.",
+          "buttonNext": "Weiter",
+          "buttonPrev": "Zurück"
+        },
+
+        "firstStep": {
+          "disclaimer": "Wenn du das Meldeformular in Vertretung für eine Person ausfüllst, bedeutet das, dass du das Formular aus Perspektive der betroffenen Person und entsprechend der Selbstangaben ausfüllst. Sollte dies nicht der Fall sein und du möchtest einen Vorfall aus deiner Perspektive als Zeug*in schildern, klicke oben bitte die Option „Eine andere Person“ an.“",
+          "disclaimerAgreement": " Hiermit bestätige ich, dass ich die folgenden Angaben im Namen der betroffenen Person eingebe. Ich fülle dieses Meldeformular in Vertretung aus und habe das Einverständnis der betroffenen Person. Alle Angaben werden entsprechend dem Wunsch und den Aussagen der betroffenen Person ausgefüllt. Hiermit bestätige ich, dass ich die folgenden Angaben für im Namen der betroffenen Person eingebe. Ich versichere, dass ich alle Angaben wahrheitsgemäß unter Ermächtigung der betroffenen Person ausfülle.",
+          "whoIsAffected": {
+            "title": "Wer ist betroffen?*",
+            "firstOption": "Ich selbst",
+            "secondOption": "Eine andere Person",
+            "thirdOption": "Ich melde in Vertretung für die betroffene Person",
+            "fourthOption": "Eine Organisation/Institution",
+            "fieldIsRequired": "Dieses Feld ist erforderlich."
+          },
+          "organizationTypeQuestion": "Was für eine Organisation/Institution ist betroffen (Mehrfachantwort möglich)?",
+          "numberOfEmployeesQuestion": "Wie viele Menschen sind in der Organisation/Institution tätig (haupt- oder ehrenamtlich oder in freier Mitarbeit)?",
+          "whoIsAffectedOnBehalfQuestion": {
+            "firstOption": "Was ist die geschlechtliche Identität der betroffenen Person?",
+            "secondQuestion": "Wie alt ist die Betroffene?"
+          },
+          "howOldAreYouQuestion": {
+            "firstQuestion": "Wie alt bist du?",
+            "secondQuestion": "Was ist deine geschlechtliche Identität?"
+          },
+          "freeField": "Anderes, und zwar:",
+
+          "data": {
+            "genders": [
+              {
+                "iD": 1,
+                "value": "weiblich",
+                "id": "gend1",
+                "name": "gender",
+                "label": "weiblich",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "männlich",
+                "id": "gender2",
+                "name": "gender",
+                "label": "männlich",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "trans*",
+                "id": "gender3",
+                "name": "gender",
+                "label": "trans*",
+                "checked": false
+              },
+              {
+                " iD": 4,
+                "value": "non-binär",
+                "id": "gender4",
+                "name": "gender",
+                "label": "non-binär",
+                "checked": false
+              },
+              {
+                "iD": 5,
+                "value": "inter*",
+                "id": "gender5",
+                "name": "gender",
+                "label": "inter*",
+                "checked": false
+              },
+              {
+                "iD": 6,
+                "value": "Selbstbezeichnung",
+                "id": "gender6",
+                "name": "gender",
+                "label": "Selbstbezeichnung",
+                "checked": false
+              }
+            ],
+
+            "age": [
+              {
+                "iD": 1,
+                "value": "Unter 18 Jahre ",
+                "id": "age1",
+                "name": "age",
+                "label": "Unter 18 Jahre ",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "18-27 Jahre",
+                "id": "age2",
+                "name": "age",
+                "label": "18-27 Jahre",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "28-40 Jahre",
+                "id": "age3",
+                "name": "age",
+                "label": "28-40 Jahre",
+                "checked": false
+              },
+              {
+                " iD": 4,
+                "value": "41-65 Jahre",
+                "id": "age4",
+                "name": "age",
+                "label": "41-65 Jahre",
+                "checked": false
+              },
+              {
+                "iD": 5,
+                "value": "Über 65 Jahre ",
+                "id": "age5",
+                "name": "age",
+                "label": "Über 65 Jahre ",
+                "checked": false
+              }
+            ],
+            "organizationTypeData": [
+              {
+                "iD": 1,
+                "value": "Nichtregierungsorganisation (NGO)",
+                "id": "organizationType1",
+                "name": "organizationType",
+                "label": "Nichtregierungsorganisation (NGO)",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "Selbstorganisation",
+                "id": "organizationType2",
+                "name": "organizationType",
+                "label": "Selbstorganisation",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "Religiöse Einrichtung",
+                "id": "organizationType3",
+                "name": "organizationType",
+                "label": "Religiöse Einrichtung",
+                "checked": false
+              },
+              {
+                "iD": 4,
+                "value": "Soziale Einrichtung",
+                "id": "organizationType4",
+                "name": "organizationType",
+                "label": "Soziale Einrichtung",
+                "checked": false
+              },
+              {
+                "iD": 5,
+                "value": "Kulturelle Einrichtung",
+                "id": "organizationType5",
+                "name": "organizationType",
+                "label": "Kulturelle Einrichtung",
+                "checked": false
+              },
+              {
+                "iD": 6,
+                "value": "Verein",
+                "id": "organizationType6",
+                "name": "organizationType",
+                "label": "Verein",
+                "checked": false
+              },
+              {
+                "iD": 7,
+                "value": "Anderes, und zwar:",
+                "id": "organizationType7",
+                "name": "organizationType",
+                "label": "Anderes, und zwar:",
+                "checked": false
+              }
+            ],
+            "numberOfEmployees": [
+              {
+                "iD": 1,
+                "value": "Unter 10",
+                "id": "numberOfEmployees1",
+                "name": "numberOfEmployees",
+                "label": "Unter 10",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "10 - 49",
+                "id": "numberOfEmployees2",
+                "name": "numberOfEmployees",
+                "label": "10 - 49",
+                "checked": false
+              },
+              {
+                "iD": 3,
+                "value": "50 - 250",
+                "id": "numberOfEmployees3",
+                "name": "numberOfEmployees",
+                "label": "50 - 250",
+                "checked": false
+              },
+              {
+                "iD": 4,
+                "value": "Über 250",
+                "id": "numberOfEmployees4",
+                "name": "numberOfEmployees",
+                "label": "Über 250",
+                "checked": false
+              }
+            ]
+          }
+        },
+        "secondStep": {
+          "whenDidIncidentTakePlace": "Wann hat der Vorfall stattgefunden?",
+          "happenedOverALongPeriod": "Es ist über einen längeren Zeitraum passiert.",
+          "inWhichPlace": "An welchem Ort hat die Diskriminierung stattgefunden?",
+          "inWhichPlaceHint": "(Bitte geben Sie hier nur die Stadt oder den Stadtteil ein keine Adresse)",
+          "required": "Wählen Sie mindestens eine Option",
+          "itHappenedOnline": "Es ist online passiert.",
+          "whichSocialSphere": "In welchem gesellschaftlichen Bereich fand die Diskriminierung statt? (Mehrfachantworten möglich)*",
+
+          "data": {
+            "choices": [
+              {
+                "iD": 1,
+                "name": "areaLocation",
+                "value": "Ämter und Behörden",
+                "id": "1",
+                "label": "Ämter und Behörden",
+                "examples": "z.B. Sozialamt | Jobcenter | Ausländerbehörde"
+              },
+
+              {
+                "iD": 2,
+                "name": "areaLocation",
+                "value": "Arbeit",
+                "id": "2",
+                "label": "Arbeit",
+                "examples": "z.B. Arbeitsplatz | Ausbildung | Arbeitssuche"
+              },
+              {
+                "iD": 3,
+                "name": "areaLocation",
+                "value": "Bildung",
+                "id": "3",
+                "label": "Bildung",
+                "examples": "z.B. Schule | KiTa | Hochschule | Erwachsenenbildung"
+              },
+              {
+                "iD": 4,
+                "name": "areaLocation",
+                "value": "Wohnen",
+                "id": "4",
+                "label": "Wohnen",
+                "examples": "z.B. Wohnungssuche | Mietverhältnis)"
+              },
+              {
+                "iD": 5,
+                "name": "areaLocation",
+                "value": "Einzelhandel und Dienstleistungen",
+                "id": "5",
+                "label": "Einzelhandel und Dienstleistungen",
+                "examples": "z.B. Geschäft | Gastronomie | Kultur | Sport | Versicherung | Banken"
+              },
+              {
+                "iD": 6,
+                "name": "areaLocation",
+                "value": "Digitaler Raum",
+                "id": "6",
+                "label": "Digitaler Raum",
+                "examples": "z.B. soziale Medien | Internet | Gaming"
+              },
+              {
+                "iD": 7,
+                "name": "areaLocation",
+                "value": "Analoge Medien",
+                "id": "7",
+                "label": "Analoge Medien",
+                "examples": "z.B. Zeitung | TV | Radio"
+              },
+              {
+                "iD": 8,
+                "name": "areaLocation",
+                "value": "Persönliches Umfeld/Privatleben",
+                "id": "8",
+                "label": "Persönliches Umfeld/Privatleben",
+                "examples": "z.B. Familie | Bekanntenkreis | Nachbarschaft Beziehung"
+              },
+              {
+                "iD": 9,
+                "name": "areaLocation",
+                "value": "Öffentlicher Raum",
+                "id": "9",
+                "label": "Öffentlicher Raum",
+                "examples": "z.B.- Straße | Park | Spielplatz"
+              },
+              {
+                "iD": 10,
+                "name": "areaLocation",
+                "value": "Freizeit",
+                "id": "10",
+                "label": "Freizeit",
+                "examples": "z.B. Vereine | Soziale oder religiöse Einrichtungen"
+              },
+              {
+                "iD": 11,
+                "name": "areaLocation",
+                "value": "Verkehr",
+                "id": "11",
+                "label": "Verkehr",
+                "examples": ".B. In Bus und Bahn | Bei einem Flug | Im Taxi"
+              },
+              {
+                "iD": 12,
+                "name": "areaLocation",
+                "value": "Gesundheit",
+                "id": "12",
+                "label": "Gesundheit",
+                "examples": "z.B. Krankenhaus | Ärzt*in | Pflege | Therapie"
+              },
+              {
+                "iD": 13,
+                "name": "areaLocation",
+                "value": "Soziale Dienste",
+                "id": "13",
+                "label": "Soziale Dienste",
+                "examples": "z.B. Beratung | Betreuung | Selbsthilfe"
+              },
+              {
+                "iD": 14,
+                "name": "areaLocation",
+                "value": "Justiz",
+                "id": "14",
+                "label": "Justiz",
+                "examples": "z.B. Gericht | Anwält*in | Gefängnis"
+              },
+              {
+                "iD": 15,
+                "name": "areaLocation",
+                "value": "Polizei",
+                "id": "15",
+                "label": "Polizei",
+                "examples": "z.B. Verkehrspolizei | Bundespolizei | Kriminalpolizei"
+              },
+              {
+                "iD": 16,
+                "name": "areaLocation",
+                "value": "Einsatzorganisationen",
+                "id": "16",
+                "label": "Einsatzorganisationen",
+                "examples": "z.B. Feuerwehr | Bundeswehr"
+              },
+              {
+                "iD": 17,
+                "name": "areaLocation",
+                "value": "Anderes und zwar:",
+                "id": "17",
+                "label": "Anderes und zwar:"
+              }
+            ]
+          },
+          "freeField": "Anderes und zwar:"
+        },
+        "thirdStep": {
+          "fieldIsRequired": "Dieses Feld ist erforderlich.",
+          "iThinkItIsAbout": "Ich denke, es handelt sich um",
+          "organization": {
+            "asian": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurde die Organisation/Institution diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Antiasiatischen Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?"
+                }
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hat die Organisation/Institution bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            },
+            "black": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurde die Organisation/Institution diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Anti-Schwarzen Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?"
+                }
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hat die Organisation/Institution bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            },
+            "other": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurde die Organisation/Institution diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Anti-.... Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?"
+                }
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hat die Organisation/Institution bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            }
+          },
+          "normal": {
+            "asian": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurdest du diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Antiasiatischen Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "Auf welche Art und Weise hat sich die Diskriminierung aufgrund der (zugeschriebenen) asiatischen Herkunft geäußert?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Ich wurde benachteiligt",
+                    "id": "id1",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde benachteiligt",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ich wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "id": "id2",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "examples": "z.B. Beleidigung mit Bezug auf meine (zugeschriebene) asiatische Herkunft | Anfeindung auf der Straße ",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Ich habe sexuelle Belästigung erlebt",
+                    "id": "id3",
+                    "name": "racismManifestation",
+                    "label": "Ich habe sexuelle Belästigung erlebt ",
+                    "examples": "z.B. Exotisierung | Über- oder Desexualisierung aufgrund meiner (zugeschriebenen) asiatischen Herkunft",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Ich wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "id": "id4",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "examples": "z.B. Zuschreibung von negativen oder „positiven“ Eigenschaften nur mit Bezug auf meiner (zugeschriebenen) asiatischen Herkunft | Konfrontation mit „asiatischen Lauten oder Gesten“ | Schuldzuweisung in Bezug auf Corona | Nicht-Ernst nehmen oder Lächerlich-Machen aufgrund meiner (zugeschriebenen) asiatischen Herkunft | Gemieden-Werden | Zugehörigkeit zu Deutschland in Frage gestellt",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Ich habe digitale Gewalt oder Diskriminierung erlebt",
+                    "id": "id5",
+                    "name": "racismManifestation",
+                    "label": "Ich habe digitale Gewalt oder Diskriminierung erlebt",
+                    "examples": "z.B. Hatespeech | Cyber-Stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "Ich habe Gewalt erlebt",
+                    "id": "id6",
+                    "name": "racismManifestation",
+                    "label": "Ich habe Gewalt erlebt",
+                    "examples": "z.B. Körperlicher Angriff oder Nötigung | Brandstiftung | Eindringen in meine Wohnung | Zerstörung oder Beschädigung von Eigentum",
+                    "checked": false
+                  },
+
+                  {
+                    "iD": 7,
+                    "value": "Anderes und zwar",
+                    "id": "id7",
+                    "name": "racismManifestation",
+                    "label": "Anderes und zwar",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Ich habe keinen Zugang erhalten",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich habe keinen Zugang erhalten",
+                    "examples": "z.B. Kein Zugang zu einem Club oder einem Event | Kein Vertrag in einem Fitnessstudio | Eintritt in einen Verein oder ein Gruppe | Verweigerung eines Kreditvertrages | Vermietung einer Wohnung",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ich habe eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich habe eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "examples": "z.B. Unzureichende oder verweigerte ärztliche Behandlung | Grundlose Kontrolle | Schlechtere Noten in der Schule | Schlechterstellung auf dem Arbeitsplatz | Verweigerung einer Sozialleistung durch ein Amt | Höhere Miete im Vergleich zu anderen Mieter*innen",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Ich wurde ausgeschlossen.*",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich wurde ausgeschlossen.* ",
+                    "examples": "z.B. Verweis oder Nichtversetzung in der Schule | Arbeitsplatz- oder Wohnungskündigung | Versetzung auf der Arbeit | Platzverweis",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Mir wurden die gleichen Rechte verwehrt.",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Mir wurden die gleichen Rechte verwehrt.",
+                    "examples": "z.B. Aufenthaltsstatus | Anerkennung eines Berufs- oder Bildungsabschlusses",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Ich fühle mich in meinen Persönlichkeitsrechten verletzt",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich fühle mich in meinen Persönlichkeitsrechten verletzt",
+                    "examples": "z.B. Falsche Aussprache oder Schreibung meines Namens | Verletzung meiner Intim- oder Privatsphäre",
+                    "checked": false
+                  }
+                ]
+              },
+
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hast du bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            },
+            "black": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurdest du diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Anti-Schwarzen Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "Auf welche Art und Weise hat sich der Anti-Schwarze Rassismus bei dem Vorfall gezeigt?*",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Ich wurde benachteiligt",
+                    "id": "id1",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde benachteiligt",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ich wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "id": "id2",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "examples": "z.B. Beleidigung mit Bezug auf mein Schwarzsein | Nutzung des N-Wortes | Anfeindung auf der Straße",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Ich habe sexuelle Belästigung erlebt",
+                    "id": "id3",
+                    "name": "racismManifestation",
+                    "label": "Ich habe sexuelle Belästigung erlebt ",
+                    "examples": "z.B. Übersexualisierung aufgrund meines Schwarz-Seins",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Ich wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "id": "id4",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "examples": "z.B. Zuschreibung von negativen oder „positiven“ Eigenschaften nur mit Bezug auf mein Schwarzsein | Konfrontation mit „afrikanischen“Lauten oder Gesten | Exotisierung | Gemieden-Werden | Absprechen von Fähigkeiten | Zugehörigkeit zu Deutschland in Frage gestellt",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Ich habe digitale Gewalt oder Diskriminierung erlebt",
+                    "id": "id5",
+                    "name": "racismManifestation",
+                    "label": "Ich habe digitale Gewalt oder Diskriminierung erlebt",
+                    "examples": "z.B. Hatespeech | Cyber-Stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "Ich habe Gewalt erlebt",
+                    "id": "id6",
+                    "name": "racismManifestation",
+                    "label": "Ich habe Gewalt erlebt",
+                    "examples": "z.B. Körperlicher Angriff oder Nötigung | Brandstiftung | Eindringen in meine Wohnung | Zerstörung oder Beschädigung von Eigentum",
+                    "checked": false
+                  },
+
+                  {
+                    "iD": 7,
+                    "value": "Anderes und zwar",
+                    "id": "id7",
+                    "name": "racismManifestation",
+                    "label": "Anderes und zwar",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Ich habe keinen Zugang erhalten",
+                    "id": "divantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich habe keinen Zugang erhalten",
+                    "examples": "z.B. Kein Zugang zu einem Club oder einem Event | Kein Vertrag in einem Fitnessstudio | Eintritt in einen Verein oder ein Gruppe | Verweigerung eines Kreditvertrages | Vermietung einer Wohnung",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ich habe eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "id": "divantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich habe eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "examples": "z.B. Unzureichende oder verweigerte ärztliche Behandlung | Grundlose Kontrolle | Schlechtere Noten in der Schule | Schlechterstellung auf dem Arbeitsplatz | Verweigerung einer Sozialleistung durch ein Amt | Höhere Miete im Vergleich zu anderen Mieter*innen",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Ich wurde ausgeschlossen.*",
+                    "id": "divantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich wurde ausgeschlossen.* ",
+                    "examples": "z.B. Verweis oder Nichtversetzung in der Schule | Arbeitsplatz- oder Wohnungskündigung | Versetzung auf der Arbeit | Platzverweis",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Mir wurden die gleichen Rechte verwehrt.",
+                    "id": "divantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Mir wurden die gleichen Rechte verwehrt.",
+                    "examples": "z.B. Aufenthaltsstatus | Anerkennung eines Berufs- oder Bildungsabschlusses",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Ich fühle mich in meinen Persönlichkeitsrechten verletzt",
+                    "id": "divantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich fühle mich in meinen Persönlichkeitsrechten verletzt",
+                    "examples": "z.B. Falsche Aussprache oder Schreibung meines Namens | Verletzung meiner Intim- oder Privatsphäre",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hast du bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            },
+            "other": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurdest du diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Anti-.... Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?",
+                  "dynamicFirstPart": "Was lässt dich denken, dass es sich um",
+                  "dynamicSeconPart": "handelt?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "Auf welche Art und Weise hat sich Rassismus bei dem Vorfall gezeigt? * ",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Ich wurde benachteiligt",
+                    "id": "id1",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde benachteiligt",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ich wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "id": "id2",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "examples": "z.B. Beleidigung mit Bezug auf meine (zugeschriebenen) Herkunft | Anfeindung auf der Straße",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Ich habe sexuelle Belästigung erlebt",
+                    "id": "id3",
+                    "name": "racismManifestation",
+                    "label": "Ich habe sexuelle Belästigung erlebt ",
+                    "examples": "z.B. Übersexualisierung aufgrund meines Schwarz-Seins",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Ich wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "id": "id4",
+                    "name": "racismManifestation",
+                    "label": "Ich wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "examples": "z.B. Zuschreibung von negativen oder „positiven“ Eigenschaften nur mit Bezug auf mein Schwarzsein |  Exotisierung | Gemieden-Werden | Absprechen von Fähigkeiten | Zugehörigkeit zu Deutschland in Frage gestellt",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Ich habe digitale Gewalt oder Diskriminierung erlebt",
+                    "id": "id5",
+                    "name": "racismManifestation",
+                    "label": "Ich habe digitale Gewalt oder Diskriminierung erlebt",
+                    "examples": "z.B. Hatespeech | Cyber-Stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "Ich habe Gewalt erlebt",
+                    "id": "id6",
+                    "name": "racismManifestation",
+                    "label": "Ich habe Gewalt erlebt",
+                    "examples": "z.B. Körperlicher Angriff oder Nötigung | Brandstiftung | Eindringen in meine Wohnung | Zerstörung oder Beschädigung von Eigentum",
+                    "checked": false
+                  },
+
+                  {
+                    "iD": 7,
+                    "value": "Anderes und zwar",
+                    "id": "id7",
+                    "name": "racismManifestation",
+                    "label": "Anderes und zwar",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Ich habe keinen Zugang erhalten",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich habe keinen Zugang erhalten",
+                    "examples": "z.B. Kein Zugang zu einem Club oder einem Event | Kein Vertrag in einem Fitnessstudio | Eintritt in einen Verein oder ein Gruppe | Verweigerung eines Kreditvertrages | Vermietung einer Wohnung",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ich habe eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich habe eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "examples": "z.B. Unzureichende oder verweigerte ärztliche Behandlung | Grundlose Kontrolle | Schlechtere Noten in der Schule | Schlechterstellung auf dem Arbeitsplatz | Verweigerung einer Sozialleistung durch ein Amt | Höhere Miete im Vergleich zu anderen Mieter*innen",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Ich wurde ausgeschlossen.*",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich wurde ausgeschlossen.* ",
+                    "examples": "z.B. Verweis oder Nichtversetzung in der Schule | Arbeitsplatz- oder Wohnungskündigung | Versetzung auf der Arbeit | Platzverweis",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Mir wurden die gleichen Rechte verwehrt.",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Mir wurden die gleichen Rechte verwehrt.",
+                    "examples": "z.B. Aufenthaltsstatus | Anerkennung eines Berufs- oder Bildungsabschlusses",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Ich fühle mich in meinen Persönlichkeitsrechten verletzt",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Ich fühle mich in meinen Persönlichkeitsrechten verletzt",
+                    "examples": "z.B. Falsche Aussprache oder Schreibung meines Namens | Verletzung meiner Intim- oder Privatsphäre",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hast du bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            }
+          },
+          "onBehalf": {
+            "asian": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurde Die Person diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Antiasiatischen Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "Auf welche Art und Weise hat sich die Diskriminierung aufgrund der (zugeschriebenen) asiatischen Herkunft geäußert?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Die Person wurde benachteiligt",
+                    "id": "idx1",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde benachteiligt",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Die Person wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "id": "idx2",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "examples": "z.B. Beleidigung mit Bezug auf meine (zugeschriebene) asiatische Herkunft | Anfeindung auf der Straße ",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Die Person hat sexuelle Belästigung erlebt",
+                    "id": "idx3",
+                    "name": "racismManifestation",
+                    "label": "Die Person hat sexuelle Belästigung erlebt ",
+                    "examples": "z.B. Exotisierung | Über- oder Desexualisierung aufgrund meiner (zugeschriebenen) asiatischen Herkunft",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Die Person wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "id": "idx4",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "examples": "z.B. Zuschreibung von negativen oder „positiven“ Eigenschaften nur mit Bezug auf meiner (zugeschriebenen) asiatischen Herkunft | Konfrontation mit „asiatischen Lauten oder Gesten“ | Schuldzuweisung in Bezug auf Corona | Nicht-Ernst nehmen oder Lächerlich-Machen aufgrund meiner (zugeschriebenen) asiatischen Herkunft | Gemieden-Werden | Zugehörigkeit zu Deutschland in Frage gestellt",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Die Person hat digitale Gewalt oder Diskriminierung erlebt ",
+                    "id": "idx5",
+                    "name": "racismManifestation",
+                    "label": "Die Person hat digitale Gewalt oder Diskriminierung erlebt ",
+                    "examples": "z.B. Hatespeech | Cyber-Stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "Die Person hat Gewalt erlebt",
+                    "id": "idx6",
+                    "name": "racismManifestation",
+                    "label": "Die Person hat Gewalt erlebt",
+                    "examples": "z.B. Körperlicher Angriff oder Nötigung | Brandstiftung | Eindringen in meine Wohnung | Zerstörung oder Beschädigung von Eigentum",
+                    "checked": false
+                  },
+
+                  {
+                    "iD": 7,
+                    "value": "Anderes und zwar",
+                    "id": "idx7",
+                    "name": "racismManifestation",
+                    "label": "Anderes und zwar",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Die Person hat keinen Zugang erhalten",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person hat keinen Zugang erhalten",
+                    "examples": "z.B. Kein Zugang zu einem Club oder einem Event | Kein Vertrag in einem Fitnessstudio | Eintritt in einen Verein oder ein Gruppe | Verweigerung eines Kreditvertrages | Vermietung einer Wohnung",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Die Person hat eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person hat eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "examples": "z.B. Unzureichende oder verweigerte ärztliche Behandlung | Grundlose Kontrolle | Schlechtere Noten in der Schule | Schlechterstellung auf dem Arbeitsplatz | Verweigerung einer Sozialleistung durch ein Amt | Höhere Miete im Vergleich zu anderen Mieter*innen",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Die Person hat wurde ausgeschlossen.*",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person hat wurde ausgeschlossen.* ",
+                    "examples": "z.B. Verweis oder Nichtversetzung in der Schule | Arbeitsplatz- oder Wohnungskündigung | Versetzung auf der Arbeit | Platzverweis",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Der Person wurden die gleichen Rechte verwehrt",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Der Person wurden die gleichen Rechte verwehrt",
+                    "examples": "z.B. Aufenthaltsstatus | Anerkennung eines Berufs- oder Bildungsabschlusses",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Die Person fühlt sich in ihren Persönlichkeitsrechten verletzt",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person fühlt sich in ihren Persönlichkeitsrechten verletzt",
+                    "examples": "z.B. Falsche Aussprache oder Schreibung meines Namens | Verletzung meiner Intim- oder Privatsphäre",
+                    "checked": false
+                  }
+                ]
+              },
+
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hast die Person bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            },
+            "black": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurde Die Person diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Anti-Schwarzen Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "Auf welche Art und Weise hat sich der Anti-Schwarze Rassismus bei dem Vorfall gezeigt?*",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Die Person wurde benachteiligt",
+                    "id": "idy1",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde benachteiligt",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Die Person wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "id": "idy2",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "examples": "z.B. Beleidigung mit Bezug auf mein Schwarzsein | Nutzung des N-Wortes | Anfeindung auf der Straße",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Die Person habe sexuelle Belästigung erlebt",
+                    "id": "idy3",
+                    "name": "racismManifestation",
+                    "label": "Die Person habe sexuelle Belästigung erlebt ",
+                    "examples": "z.B. Übersexualisierung aufgrund meines Schwarz-Seins",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Die Person wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "id": "idy4",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "examples": "z.B. Zuschreibung von negativen oder „positiven“ Eigenschaften nur mit Bezug auf mein Schwarzsein | Konfrontation mit „afrikanischen“Lauten oder Gesten | Exotisierung | Gemieden-Werden | Absprechen von Fähigkeiten | Zugehörigkeit zu Deutschland in Frage gestellt",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Die Person  hat digitale Gewalt oder Diskriminierung erlebt",
+                    "id": "idy5",
+                    "name": "racismManifestation",
+                    "label": "Die Person  hat digitale Gewalt oder Diskriminierung erlebt",
+                    "examples": "z.B. Hatespeech | Cyber-Stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "Die Person hat Gewalt erlebt",
+                    "id": "idy6",
+                    "name": "racismManifestation",
+                    "label": "Die Person hat Gewalt erlebt",
+                    "examples": "z.B. Körperlicher Angriff oder Nötigung | Brandstiftung | Eindringen in meine Wohnung | Zerstörung oder Beschädigung von Eigentum",
+                    "checked": false
+                  },
+
+                  {
+                    "iD": 7,
+                    "value": "Anderes und zwar",
+                    "id": "idy7",
+                    "name": "racismManifestation",
+                    "label": "Anderes und zwar",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Die Person hat keinen Zugang erhalten",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person hat keinen Zugang erhalten",
+                    "examples": "z.B. Kein Zugang zu einem Club oder einem Event | Kein Vertrag in einem Fitnessstudio | Eintritt in einen Verein oder ein Gruppe | Verweigerung eines Kreditvertrages | Vermietung einer Wohnung",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Die Person hat eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person hat eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "examples": "z.B. Unzureichende oder verweigerte ärztliche Behandlung | Grundlose Kontrolle | Schlechtere Noten in der Schule | Schlechterstellung auf dem Arbeitsplatz | Verweigerung einer Sozialleistung durch ein Amt | Höhere Miete im Vergleich zu anderen Mieter*innen",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Die Person wurde ausgeschlossen.*",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person wurde ausgeschlossen.* ",
+                    "examples": "z.B. Verweis oder Nichtversetzung in der Schule | Arbeitsplatz- oder Wohnungskündigung | Versetzung auf der Arbeit | Platzverweis",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Der Person wurden die gleichen Rechte verwehrt.",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Der Person wurden die gleichen Rechte verwehrt.",
+                    "examples": "z.B. Aufenthaltsstatus | Anerkennung eines Berufs- oder Bildungsabschlusses",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Die Person  fühlt sich in ihren Persönlichkeitsrechten verletzt",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person  fühlt sich in ihren Persönlichkeitsrechten verletzt",
+                    "examples": "z.B. Falsche Aussprache oder Schreibung meines Namens | Verletzung meiner Intim- oder Privatsphäre",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hast die Person bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            },
+            "other": {
+              "description": {
+                "title": "Vorfallsbeschreibung – Was genau ist passiert?*",
+                "placeholder": "Bitte beschreibe den Vorfall so genau wie möglich. Aus Gründen des Datenschutzes bitten wir dich, hier keine Namen oder Daten anderer Personen anzugeben.",
+                "hints": {
+                  "title": "Relevante Informationen können sein:",
+                  "item1": "Wo fand die Diskriminierung statt?",
+                  "item2": "Gegen wen richtete sich der Angriff?",
+                  "item3": "Wie wurde Die Person diskriminiert?",
+                  "item4": "Von wem ging der Angriff aus?",
+                  "item5": "Wie haben andere Personen reagiert?",
+                  "item6": "Was lässt dich denken, dass es sich um Anti-.... Rassismus handelt?",
+                  "item7": "Welche Auswirkungen hatte der Vorfall (z.B. emotionale, körperliche, soziale oder finanzielle Auswirkungen)?"
+                }
+              },
+              "manifestation": {
+                "titleQuestion": "Auf welche Art und Weise hat sich Rassismus bei dem Vorfall gezeigt? * ",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Die Person wurde benachteiligt",
+                    "id": "idz1",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde benachteiligt",
+                    "examples": "",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Die Person wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "id": "idz2",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde belästigt, gemobbt beleidigt oder schikaniert",
+                    "examples": "z.B. Beleidigung mit Bezug auf meine (zugeschriebenen) Herkunft | Anfeindung auf der Straße",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Die Person habe sexuelle Belästigung erlebt",
+                    "id": "idz3",
+                    "name": "racismManifestation",
+                    "label": "Die Person habe sexuelle Belästigung erlebt ",
+                    "examples": "z.B. Übersexualisierung aufgrund meines Schwarz-Seins",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Die Person wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "id": "idz4",
+                    "name": "racismManifestation",
+                    "label": "Die Person wurde in einer Alltagsituation unterschwellig gedemütigt oder erniedrigt",
+                    "examples": "z.B. Zuschreibung von negativen oder „positiven“ Eigenschaften nur mit Bezug auf mein Schwarzsein |  Exotisierung | Gemieden-Werden | Absprechen von Fähigkeiten | Zugehörigkeit zu Deutschland in Frage gestellt",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Die Person  hat digitale Gewalt oder Diskriminierung erlebt",
+                    "id": "idz5",
+                    "name": "racismManifestation",
+                    "label": "Die Person  hat digitale Gewalt oder Diskriminierung erlebt",
+                    "examples": "z.B. Hatespeech | Cyber-Stalking",
+                    "checked": false
+                  },
+                  {
+                    "iD": 6,
+                    "value": "Die Person hat Gewalt erlebt*",
+                    "id": "idz6",
+                    "name": "racismManifestation",
+                    "label": "Die Person hat Gewalt erlebt*",
+                    "examples": "z.B. Körperlicher Angriff oder Nötigung | Brandstiftung | Eindringen in meine Wohnung | Zerstörung oder Beschädigung von Eigentum",
+                    "checked": false
+                  },
+
+                  {
+                    "iD": 7,
+                    "value": "Anderes und zwar",
+                    "id": "idz7",
+                    "name": "racismManifestation",
+                    "label": "Anderes und zwar",
+                    "examples": "",
+                    "checked": false
+                  }
+                ]
+              },
+              "manifestationSubsection": {
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Die Person hat keinen Zugang erhalten",
+                    "id": "disadvantaged1",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person hat keinen Zugang erhalten",
+                    "examples": "z.B. Kein Zugang zu einem Club oder einem Event | Kein Vertrag in einem Fitnessstudio | Eintritt in einen Verein oder ein Gruppe | Verweigerung eines Kreditvertrages | Vermietung einer Wohnung",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Die Person hat eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "id": "disadvantaged2",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person hat eine gleiche Leistung oder gleiche Behandlung nicht erhalten",
+                    "examples": "z.B. Unzureichende oder verweigerte ärztliche Behandlung | Grundlose Kontrolle | Schlechtere Noten in der Schule | Schlechterstellung auf dem Arbeitsplatz | Verweigerung einer Sozialleistung durch ein Amt | Höhere Miete im Vergleich zu anderen Mieter*innen",
+                    "checked": false
+                  },
+                  {
+                    "iD": 3,
+                    "value": "Die Person wurde ausgeschlossen.*",
+                    "id": "disadvantaged3",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person wurde ausgeschlossen.* ",
+                    "examples": "z.B. Verweis oder Nichtversetzung in der Schule | Arbeitsplatz- oder Wohnungskündigung | Versetzung auf der Arbeit | Platzverweis",
+                    "checked": false
+                  },
+                  {
+                    "iD": 4,
+                    "value": "Der Person wurden die gleichen Rechte verwehrt.",
+                    "id": "disadvantaged4",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Der Person wurden die gleichen Rechte verwehrt.",
+                    "examples": "z.B. Aufenthaltsstatus | Anerkennung eines Berufs- oder Bildungsabschlusses",
+                    "checked": false
+                  },
+                  {
+                    "iD": 5,
+                    "value": "Die Person  fühlt sich in  ihren Persönlichkeitsrechten verletzt",
+                    "id": "disadvantaged5",
+                    "name": "racismManifestationIWasDisadvantaged",
+                    "label": "Die Person  fühlt sich in  ihren Persönlichkeitsrechten verletzt",
+                    "examples": "z.B. Falsche Aussprache oder Schreibung meines Namens | Verletzung meiner Intim- oder Privatsphäre",
+                    "checked": false
+                  }
+                ]
+              },
+              "otherFormOfDiscrimination": {
+                "title": "Handelt es sich noch um eine weitere Form der Diskriminierung?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "isItAnotherFormOfDiscrimination",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Antifeminismus",
+                  "Antimuslimischer Rassismus",
+                  "Anti-Schwarzer Rassismus",
+                  "Antisemitismus",
+                  "Antislawischer Rassismus",
+                  "Antiziganismus",
+                  "Queerfeindlichkeit",
+                  "Sexismus",
+                  "Andere Formen, und zwar:"
+                ]
+              },
+              "isItReported": {
+                "title": "Hat die Person bereits andere Maßnahmen ergriffen?",
+                "data": [
+                  {
+                    "iD": 1,
+                    "value": "Nein",
+                    "id": "no",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Nein",
+                    "checked": false
+                  },
+                  {
+                    "iD": 2,
+                    "value": "Ja",
+                    "id": "yes",
+                    "name": "haveYouTakenMeasures",
+                    "label": "Ja",
+                    "checked": false
+                  }
+                ],
+                "dataYes": [
+                  "Sie hat den Fall bei der Polizei angezeigt",
+                  "Sie hat eine Beratungsstelle aufgesucht",
+                  "Sie hat den Fall bei einer anderen Meldestelle gemeldet, und zwar:",
+                  "Anderes, und zwar:"
+                ]
+              }
+            }
+          },
+          "agreement": "Hiermit bestätige ich, dass ich die Angaben im Namen der betroffenen Person eingeben habe. Ich habe dieses Meldeformular in Vertretung ausgefüllt und habe das Einverständnis der betroffenen Person. Alle Angaben wurden entsprechend dem Wunsch und den Aussagen der betroffenen Person ausgefüllt",
+          "agreementOtherPerson": "Hiermit bestätige ich, dass ich die Angaben aus meiner eigenen Beobachtung nach bestem Wissen und Gewissen ausgefüllt habe.",
+          "data": {
+            "racismType": [
+              {
+                "iD": 1,
+                "value": "Antiasiatischen Rassismus",
+                "id": "ida1",
+                "name": "typeOfRacism",
+                "label": "Antiasiatischen Rassismus",
+                "checked": false
+              },
+              {
+                "iD": 2,
+                "value": "Anti-Schwarzen Rassismus",
+                "id": "ida2",
+                "name": "typeOfRacism",
+                "label": "Anti-Schwarzen Rassismus",
+                "checked": false
+              },
+
+              {
+                "iD": 3,
+                "value": "Ich bin mir nicht sicher",
+                "id": "ida3",
+                "name": "typeOfRacism",
+                "label": "Ich bin mir nicht sicher",
+                "checked": false
+              },
+              {
+                "iD": 4,
+                "value": "Eine andere Art von Rassismus und zwar",
+                "id": "ida4",
+                "name": "typeOfRacism",
+                "label": "Eine andere Art von Rassismus und zwar",
+                "checked": false
+              }
+            ]
+          }
+        },
+        "fourthStep": {
+          "title": "Zusammenfassung und Verifizierung",
+          "link": "Hier",
+          "firstParagraph": "kannst Du Deine Meldung noch einmal ansehen und korrigieren.",
+          "acceptance": "Mit Klick auf Absenden bestätige ich die Richtigkeit meiner Angaben ",
+          "submit": "Absenden",
+          "steps": {
+            "identity": "Identität",
+            "placeTime": "Ort & Zeit",
+            "description": "Beschreibung",
+            "edit": "Bearbeiten"
+          },
+          "captcha": "Ich bin kein Roboter"
+        },
+        "fifthStep": {
+          "title": "Vielen Dank, dass Du Deine rassistische Erfahrung geteilt hast! ",
+          "leftSection": {
+            "title": "Unterstützung erhalten",
+            "paragraph": "Möchtest Du wegen des gemeldeten Vorfalls eine Beratung in Anspruch nehmen? ",
+            "firstLinkTitle": "Opferberatung Rheinland (OBR) und BackUp ",
+            "firstLinkDescription": "unterstützen seit 2011/12 Betroffene rechter, rassistischer, antisemitischer und anderer menschenfeindlicher (kurz: rechter) Gewalt in NRW.",
+            "secondLinkTitle": "Die Servicestellen für Antidiskriminierungsstellen",
+            "secondLinkDescription": "beraten und begleiten Menschen, die wegen ihrer Herkunft, Hautfarbe, Religion oder Sprache von Diskriminierung betroffen sind."
+          },
+          "rightSection": {
+            "title": "Download",
+            "paragraph": "Hier kannst Du eine Zusammenfassung Deiner Meldung herunterladen ",
+            "button": "Download"
+          },
+          "homeButton": "Zurück zur Startseite"
+        },
+
+        "thirdStepOnBehalf": {}
+      },
+      "formFields": {},
+      "button": {
+        "next": "Weiter",
+        "prev": "Zurück",
+        "submit": "Abschicken"
+      }
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Rassismus",
+        "answer": "Rassismus entspringt der historisch gewachsenen Denkweise, dass «Sie» sich von «Uns» dauerhaft unterscheiden. Dieses Gefühl der Differenz dient als das Motiv dafür, dass «wir» unseren Machtvorteil einsetzen, um die «Anderen» auf eine Weise zu behandeln, die wir als grausam oder ungerecht ansehen würden, wenn Mitglieder unserer eigenen Gruppe davon betroffen wären. Rassismus ist somit Ausdruck gesellschaftlicher Machtverhältnisse, die ein System der Unterscheidung, Ausschließung, Beschränkung oder Bevorzugung begründen. Das hat zur Folge, dass ein Respektieren, Teilhaben oder Ausüben von Menschenrechten im politischen, sozialen, wirtschaftlichen, rechtlichen, kulturellen oder jedem sonstigen Bereich des öffentlichen oder privaten Lebens vereitelt, beeinträchtigt oder verweigert wird."
+      },
+      {
+        "id": 2,
+        "question": "Anti-Schwarzer Rassismus",
+        "answer": "Anti-Schwarzer Rassismus richtet sich im Besonderen gegen Schwarze Menschen. Es hat seinen Ursprung mit der Versklavung sowie der Ausbeutung des afrikanischen Kontinents und seiner Bewohner*innen. Um die brutale Kolonialisierung zu rechtferigen, erklärten Europäer*innen, Schwarze zu minderwertigen Menschen- nicht selten pseuwissenschaftlich begründet. Das geschah besonders anhand physischer Eigenschaften, zum Beispiel der Körperform oder von Afrohaaren. Anti-Schwarzer Rassismus führt aufgrund dieser Sichtbarkeit des Schwarzseins, insbesondere bei dark-skinned Personen, zu regelmäßigen seelischen und körperlichen Gewalterfahrungen im privaten und öffentlichen Leben."
+      },
+
+      {
+        "id": 3,
+        "question": "Antiasiatischer Rassismus",
+        "answer": "Antiasiatischer Rassismus richtet sich im Besonderen spezifisch gegen Menschen, denen eine asiatische Herkunft zugeschrieben wird. Meist geht es um Bezüge zu süd-, südost- und ostasiatischen Ländern. Er äußert sich in Erzählweisen und Vorurteilen und zeigt sich im privaten und öffentlichen Leben. Der Rassismus gegen asiatisch gelesene Menschen ist nicht neu und beruht auf Einstellungen und Erzählungen, die bis in die Kolonialzeit zurückreichen. Er kann dabei in verschiedene Richtungen gehen. Zum einen werden asiatisch gelesene Personen in Deutschland als „anders“ oder „gefährlich“ stigmatisiert. Zum gibt es das Vorurteil der „fleißigen Vorzeige-Migrant*innen. Deswegen werden ihnen häufig Rassismuserfahrungen abgesprochen."
+      }
+    ],
+    "cookiesConsent": {
+      "title": "Deine Privatsphäre",
+      "content": "Zum Betrieb unseres Portals verwenden wir ausschließlich Cookies, die zum Betrieb erforderlich sind. Erweiterte Informationen finden Sie in den",
+      "datenschutz": "Datenschutzhinweisen.",
+      "accept": "Ja, verstanden"
+    },
+    "about": {
+      "heroSection": {
+        "description": "MIRa-NRW hat sich zur Aufgabe gemacht Antiasiatischen Rassismus, Anti-Schwarzen Rassismus und weitere Formen von Rassismus in NRW sichtbarer zu machen. Betrieben wird MIRa-NRW von einem Zusammenschluss von drei Organisationen"
+      },
+      "firstSection": {
+        "description": "Der VMDO (Verbund der sozial-kulturellen Migrantenvereine in Dortmund) versteht sich als Zusammenschluss von Vereinen und Organisationen, die autonom sind, zugleich aber gemeinsame Ziele und Prinzipien teilen. Der VMDO zielt darauf ab, Austausch und Begegnung von Menschen mit und ohne Migrationsgeschichte zu fördern und persönliches Kennenlernen kulturübergreifend zu ermöglichen und die gleichberechtigte Teilhabe aller Dortmunder*innen voranzutreiben. Zugleich versteht sich der VMDO als Stimme der Migrant*innen und Menschen mit Flucht- oder Migrationshintergrund in Dortmund."
+      },
+      "secondSection": {
+        "description": "Das Anti-Rassismus Informations-Centrum (ARIC-NRW) ist seit über 30 Jahren eine anerkannte Fachstelle für Antidiskriminierungs- und rassismuskritische Arbeit. Seit 1997 Jahren bieten wir Betroffenen von Diskriminierung Beratung an, haben eine langjährige Erfahrung in der Beobachtung und Dokumentation von Rassismus und Diskriminierung und setzen uns politisch für einen besseren Diskriminierungsschutz ein."
+      },
+      "thirdSection": {
+        "description": "Der Landesverband Netzwerke von Migrant*innenorganisationen in NRW e. V. (LV NeMO) setzt sich zusammen aus acht lokalen Verbünden von Migrant*innenorganisationen (MO) in acht Städten in NRW und ist die Vertretungsorganisation von ca. 150 Migrant*innennorganisationen in NRW. Der LV NeMO wurde 2018 gegründet und versteht sich als neue politische und gesellschaftliche Stimme einer (post-)migrantischen Einwanderungsgesellschaft."
+      },
+      "fourthSection": {
+        "title": "MIRa-NRW will",
+        "firstSubsection": "Antischwarzen, antiasiatischen und weitere Formen von rassistischen Übergriffe wie Vorfälle in NRW zu dokumentieren und analysieren",
+        "secondSubsection": "Die Formen, die Anwendungen und die Konsequenzen der Diskriminierung und Rassismus sichtbar machen",
+        "thirdSubsection": "das Dunkelfeld von Antischwarzen, antiasiatischen, weitere Formen und mehrdimensionale Diskriminierung und Rassismus erhellen und ein aktuelles Bild von Diskriminierung und Rassismus in NRW wiedergeben",
+        "fourthSubsection": "Betroffenen den Weg zu Beratungsangeboten weisen"
+      },
+      "cooperation": "Wir arbeiten im Verbund mit:"
+    },
+    "contact": {
+      "contactForm": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "inquiry": "Anfrage",
+        "button": "Senden"
+      },
+      "address": {
+        "title": "Büro",
+        "description": "Hauptstandort im Haus der Vielfalt im Unionviertel"
+      }
+    },
+
+    "footer": {
+      "datenschutz": "Datenschutz"
+    }
+  }
+}

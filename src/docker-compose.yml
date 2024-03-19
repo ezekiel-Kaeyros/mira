@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  web:
+    image: images
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.miqfrontend.loadbalancer.server.port=3000"
+
+  mongodb:
+    image: mongoose
+    ports:
+      - "4000:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
