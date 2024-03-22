@@ -38,7 +38,15 @@ export default function RootLayout({
         <FormProvider>
           <body className={`${poppins.className}`}>
             {/* <Header lang={params.lang} /> */}
-            {children}
+            {/* {children} */}
+            <Providers>
+              <FormProvider>{children}</FormProvider>
+            </Providers>
+            <script
+              id="dacs"
+              src="https://download.digiaccess.org/digiaccess"
+              defer
+            ></script>
           </body>
         </FormProvider>
       </Providers>

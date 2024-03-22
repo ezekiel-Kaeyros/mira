@@ -131,6 +131,7 @@ const SecondStep: React.FC<SecondStepProps> = ({ secondStepTranslation }) => {
 
     setFormCookies(dataWithQuestion, SECOND_FORM_DATA);
     dispatch({ type: NEXT_STEP, payload: '' });
+    console.log('dataWithQuestion2', dataWithQuestion);
   };
 
   useScrollOnTop();

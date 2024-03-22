@@ -3,7 +3,7 @@ import EditIcon from './icons/EditIcon';
 import { Button } from '@/app/components/button/Button';
 import { useFormContext } from '@/app/hooks/useFormContext';
 import { EDIT_STEP, FORM_ERRORS, NEXT_STEP } from '@/app/context/actions';
-import { getFormCookies } from '@/cookies/cookies';
+import { clearFormCookies, getFormCookies } from '@/cookies/cookies';
 import {
   FIRST_FORM_DATA,
   SECOND_FORM_DATA,
@@ -21,9 +21,10 @@ import QuestionAnswerComponent from './question-answer-component/QuestionAnswerC
 import dayjs from 'dayjs';
 import { useScrollOnTop } from '@/app/hooks/useScrollOnTop';
 import CaptchaCheckbox from '@/app/components/captcha/captcha-checkbox/CaptchaCheckbox';
-import { useForm } from 'react-hook-form';
+import { SubmitHandler, useForm } from 'react-hook-form';
 import { verifyCaptchaAction } from '@/app/components/captcha/Captcha';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import ReportService from '@/services/reportService';
 
 const FourthStep: React.FC<FourthStepProps> = ({ fourthStepTranslation }) => {
   const { dispatch, formErrors } = useFormContext();
@@ -53,9 +54,9 @@ const FourthStep: React.FC<FourthStepProps> = ({ fourthStepTranslation }) => {
 
     captcha && handleCaptcha();
 
-    console.log('verified response', verified);
+    console.log('verified response', captcha);
 
-    verified
+    captcha
       ? dispatch({ type: FORM_ERRORS, payload: false })
       : dispatch({ type: FORM_ERRORS, payload: true });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -75,10 +76,12 @@ const FourthStep: React.FC<FourthStepProps> = ({ fourthStepTranslation }) => {
 
     try {
       const token = await executeRecaptcha('onSubmit');
+      console.log('token', token);
 
       // validate the token via the server action we've created previously
 
-      const verified = await verifyCaptchaAction(token);
+      const verified1 = await verifyCaptchaAction(token);
+      console.log('verified1', verified1);
 
       verified && setVerified(verified);
 
@@ -88,9 +91,134 @@ const FourthStep: React.FC<FourthStepProps> = ({ fourthStepTranslation }) => {
       setCaptchaLoading(false);
     }
   };
+  const onSubmit: SubmitHandler<any> = async () => {
+    dispatch({ type: FORM_ERRORS, payload: true });
+    const firsForm: {
+      identity: string;
+      gender: string;
+      numberOfEmployees: string;
+      organizationType: string;
+      organizationTypeFreeField: string;
+      age: string;
+
+      genderFreeField: string;
+    } = getFormCookies(FIRST_FORM_DATA);
+
+    const secondForm: {
+      happenedForALongPeriod: string;
+      location: string;
+      happenedOnline: string;
+      areaLocation: string[];
+      otherLocation: string;
+
+      dateState: string;
+      dateRangeState: string[];
+    } = getFormCookies(SECOND_FORM_DATA);
+
+    const thirdForm: {
+      typeOfRacism: string;
+      otherFormOfRacism: string;
+      description: string;
+      racismManifestation: string;
+      racismManifestationIWasDisadvantaged: string;
+      racismManifestationIWasDisadvantagedFreeField: string;
+      isItAnotherFormOfDiscrimination: string;
+      newFormOfRacismYes: string;
+      newFormOfRacismYesFreeField: string;
+      haveYouTakenMeasures: string;
+      haveYouTakenMeasuresYes: string;
+      haveYouTakenMeasuresYesFreeField: string;
+    } = getFormCookies(THIRD_FORM_DATA);
+
+    let identity = firsForm.identity;
+    let gender = firsForm.gender;
+    let numberOfEmployees = firsForm.numberOfEmployees;
+    let organizationType = firsForm.organizationType;
+    let organizationTypeFreeField = firsForm.organizationTypeFreeField;
+    let age = firsForm.age;
+
+    let genderFreeField = firsForm.genderFreeField;
+    let happenedForALongPeriod = secondForm.happenedForALongPeriod;
+    let location = secondForm.location;
+    let happenedOnline = secondForm.happenedOnline;
+    let areaLocation = secondForm.areaLocation;
+    let otherLocation = secondForm.otherLocation;
+
+    let dateState = secondForm.dateState;
+    let dateRangeState = secondForm.dateRangeState;
+    let typeOfRacism = thirdForm.typeOfRacism;
+    let otherFormOfRacism = thirdForm.otherFormOfRacism;
+    let description = thirdForm.description;
+    let racismManifestation = thirdForm.racismManifestation;
+    let racismManifestationIWasDisadvantaged =
+      thirdForm.racismManifestationIWasDisadvantaged;
+    let racismManifestationIWasDisadvantagedFreeField =
+      thirdForm.racismManifestationIWasDisadvantagedFreeField;
+    let isItAnotherFormOfDiscrimination =
+      thirdForm.isItAnotherFormOfDiscrimination;
+    let newFormOfRacismYes = thirdForm.newFormOfRacismYes;
+    let newFormOfRacismYesFreeField = thirdForm.newFormOfRacismYesFreeField;
+    let haveYouTakenMeasures = thirdForm.haveYouTakenMeasures;
+    let haveYouTakenMeasuresYes = thirdForm.haveYouTakenMeasuresYes;
+    let haveYouTakenMeasuresYesFreeField =
+      thirdForm.haveYouTakenMeasuresYesFreeField;
+    const report = {
+      identity,
+      gender,
+      numberOfEmployees,
+      organizationType,
+      organizationTypeFreeField,
+      age,
+      genderFreeField,
+      happenedForALongPeriod,
+      location,
+      happenedOnline,
+      areaLocation,
+      otherLocation,
+      dateState,
+      dateRangeState,
+      typeOfRacism,
+      otherFormOfRacism,
+      description,
+      racismManifestation,
+      racismManifestationIWasDisadvantaged,
+      racismManifestationIWasDisadvantagedFreeField,
+      isItAnotherFormOfDiscrimination,
+      newFormOfRacismYes,
+      newFormOfRacismYesFreeField,
+      haveYouTakenMeasuresYes,
+      haveYouTakenMeasures,
+      haveYouTakenMeasuresYesFreeField
+    };
+    console.log(
+   'report',report
+    );
+
+       const response = new ReportService()
+         .sendReport(report)
+         .then((result) => {
+           if (result.status === 201 || result.status === 200) {
+             console.log('Successfull');
+             clearFormCookies();
+           dispatch({ type: NEXT_STEP, payload: '' });
+           } else {
+             dispatch({ type: FORM_ERRORS, payload: false });
+             console.log('failed');
+             // setCaptchaLoading(false);
+             throw new Error('Fetching error occured, please reload');
+           }
+         })
+         .catch((error) => {
+           console.log(error);
+           // setCaptchaLoading(false);
+           dispatch({ type: FORM_ERRORS, payload: false });
+           throw new Error('Fetching error occured, please reload');
+         });
+  
+  };
 
   return (
-    <div className="w-full">
+    <form className="w-full" onSubmit={handleSubmit(onSubmit)}>
       <h1 className="font-bold text-2xl">{fourthStepTranslation?.title}</h1>
       <div className="flex items-center my-4">
         <span className="mr-2">{fourthStepTranslation?.link}</span>{' '}
@@ -257,12 +385,12 @@ const FourthStep: React.FC<FourthStepProps> = ({ fourthStepTranslation }) => {
         <Button
           disabled={formErrors ? true : false}
           variant={formErrors ? 'disabled' : 'default'}
-          onClick={() => dispatch({ type: NEXT_STEP, payload: '' })}
+          // onClick={() => dispatch({ type: NEXT_STEP, payload: '' })}
         >
           {fourthStepTranslation?.submit}
         </Button>
       </div>
-    </div>
+    </form>
   );
 };
 

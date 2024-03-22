@@ -16,6 +16,7 @@ const config: Config = {
 
       colors: {
         primaryColor: '#FD5001',
+        primary: '#FD5001',
         secondaryColor: '#112445',
         blackColor: '#393F44',
         asianColor: '#FD5001',

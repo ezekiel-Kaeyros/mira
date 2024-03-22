@@ -202,6 +202,8 @@ const ThirdStep: React.FC<ThirdStepProps> = ({ thirdStepTranslation }) => {
       ...data,
     };
     setFormCookies(dataWithQuestion, THIRD_FORM_DATA);
+    console.log('dataWithQuestion3',dataWithQuestion);
+    
     dispatch({ type: NEXT_STEP, payload: 'DATA 1' });
   };
 

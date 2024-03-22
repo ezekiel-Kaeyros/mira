@@ -27,6 +27,10 @@ const buttonVariants = cva(
         black: 'bg-[#587D71] w-full  hover:opacity-90',
         asian: 'w-full bg-[#D90429] text-white',
         other: 'bg-[#393F44] w-full text-white',
+        outlinePrimary:
+          'text-[#2B8049] border border-[#2B8049] hover:opacity-90',
+        outlineWarning:
+          'text-[#F36D38] border border-[#F36D38] hover:opacity-90',
         disabled: 'bg-secondaryColor opacity-30',
       },
     },

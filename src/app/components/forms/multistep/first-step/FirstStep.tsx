@@ -144,7 +144,7 @@ const FirstStep: React.FC<FirstStepProps> = ({ firstStepTranslation }) => {
       ...data,
     };
     setFormCookies(dataWithQuestion, FIRST_FORM_DATA);
-
+console.log('dataWithQuestion1', dataWithQuestion);
     isEditing && reportingPerson === 'myself'
       ? dispatch({ type: LAST_STEP, payload: 5 })
       : dispatch({ type: NEXT_STEP, payload: 'DATA 1' });
