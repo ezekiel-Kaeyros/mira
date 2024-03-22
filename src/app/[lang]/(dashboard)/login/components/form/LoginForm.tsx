@@ -54,26 +54,26 @@ const LoginForm = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const pathname = usePathname();
-  const router = useRouter ()
+  const router = useRouter();
   const { push } = useRouter();
 
   const onSubmit: SubmitHandler<IFormInput> = async (data) => {
     setIsLoading(true);
     try {
-      const response = await fetch("/api/auth", {
+      const response = await fetch('/api/auth', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json', 
+          'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data)
+        body: JSON.stringify(data),
       });
-  
+
       const responseData = await response.json();
 
-      if (responseData.status === "Success") {
-        loginUser(responseData.user[0]); 
+      if (responseData.status === 'Success') {
+        loginUser(responseData.user[0]);
         setUserCookies(responseData.user[0]);
-        router.push(`/${ pathname.split("/")[1]}/dashboard`)
+        window.location.href = '/en/dashboard';
         toast.success(responseData.message);
         setIsLoading(false);
       } else {
@@ -84,7 +84,6 @@ const LoginForm = () => {
       toast.error('Something went wrong, try again');
       setIsLoading(false);
     }
-
   };
 
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
@@ -102,7 +101,7 @@ const LoginForm = () => {
     if (user) {
       console.log(user, 'user');
     }
-  }, [user]); 
+  }, [user]);
 
   return (
     <div className="flex xl:items-center justify-center h-[100vh] mt-16 sm:mt-40 xl:mt-0">
@@ -144,7 +143,7 @@ const LoginForm = () => {
                 props={{
                   ...register('password', {
                     required: 'size password is min 4 Length',
-                    minLength: 4, 
+                    minLength: 4,
                     // validate: validatePassword ()
                     // onChange(event) {
                     //   validatePassword ()

@@ -21,8 +21,8 @@ const Page = () => {
 
       <iframe
         onLoad={handleIframeLoaded}
-        loading="lazy"
-        src="http://dashboard.mira.nrw/#!/quantitative"
+        loading="eager"
+        src="https://dashboard.mira.nrw/#!/quantitative"
         className="w-full h-screen"
       />
     </div>

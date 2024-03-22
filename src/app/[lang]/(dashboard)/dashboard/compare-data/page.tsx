@@ -22,7 +22,7 @@ const Page = () => {
       <iframe
         onLoad={handleIframeLoaded}
         loading="lazy"
-        src="http://dashboard.mira.nrw/#!/compare"
+        src="https://dashboard.mira.nrw/#!/compare"
         className="w-full h-screen"
       />
     </div>
