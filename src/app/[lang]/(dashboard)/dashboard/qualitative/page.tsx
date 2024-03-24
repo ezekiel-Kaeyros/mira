@@ -9,7 +9,7 @@ const Page = () => {
 
   return (
     <div className="mt-8">
-      <h1 className="font-bold text-2xl mb-4">Quantitative data</h1>
+      <h1 className="font-bold text-2xl mb-4">Qualitative data</h1>
 
       {/* {(loading && (
         <div className="w-full">
